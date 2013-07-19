@@ -7,6 +7,7 @@
  * be overwritten (unless --force is specified) and is intended to be modified.
  */
 #include "s3eGPUImage_internal.h"
+#include "WrapAWrapper.h"
 
 s3eResult s3eGPUImageInit_platform()
 {
@@ -21,9 +22,31 @@ void s3eGPUImageTerminate_platform()
 
 void s3eGPUImageGetContext_platform()
 {
+	[[WrapAWrapper sharedInstance] InitialContext];
 }
 
 char * s3eGPUImageTake_platform(s3eGPUImageEventDoIt evnt, void * userData)
 {
+	switch(evnt)
+	{
+		case s3eGPUImgInitial:
+			break;
+		case s3eGPUImageDestroy:
+			[[WrapAWrapper sharedInstance] ReleaseSystem];
+			break;
+		case s3eGPUImgStartPreview:
+			[[WrapAWrapper sharedInstance] StartPreview];
+			break;
+		case s3eGPUImgStartCapture:
+			[[WrapAWrapper sharedInstance] StartCapture];
+			break;
+		case s3eGPUImgStopCapture:
+			[[WrapAWrapper sharedInstance] StopCapture];
+			break;
+		case s3eGPUImgCopyFileToDash:
+			break;
+		case s3eGPUImgGetFileName:
+			break;
+	}
     return 0;
 }

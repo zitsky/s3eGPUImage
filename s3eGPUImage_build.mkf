@@ -28,8 +28,12 @@ subproject "$MARMALADE_ROOT/s3e/edk"
 
 if {{defined I3D_OS_IPHONE}}
 {
+    includepath incoming
     files
     {
+        ["Lib"]
+        (incoming)
+        "*.o"
         ["source"]
         (use_first_found, source/iphone, source/generic)
         s3eGPUImage_platform.mm
