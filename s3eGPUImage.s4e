@@ -1,0 +1,19 @@
+include:
+	#include "s3eTypes.h"
+
+	struct s3eGPUImage;
+
+	enum s3eGPUImageEventDoIt
+	{
+		s3eGPUImgInitial,
+		s3eGPUImageDestroy,
+		s3eGPUImgStartPreview,
+		s3eGPUImgStartCapture,
+		s3eGPUImgStopCapture,
+		s3eGPUImgCopyFileToDash,
+		s3eGPUImgGetFileName
+	};
+
+functions:
+	void s3eGPUImageGetContext() 
+	char * s3eGPUImageTake(s3eGPUImageEventDoIt evnt,void * userData) 0 run_on_os_thread
