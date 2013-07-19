@@ -10,13 +10,6 @@
 
 #include "s3eGPUImage.h"
 
-
-// For MIPs (and WP8) platform we do not have asm code for stack switching 
-// implemented. So we make LoaderCallStart call manually to set GlobalLock
-#if defined __mips || defined S3E_ANDROID_X86 || (defined(WINAPI_FAMILY) && (WINAPI_FAMILY == WINAPI_FAMILY_PHONE_APP))
-#define LOADER_CALL
-#endif
-
 /**
  * Definitions for functions types passed to/from s3eExt interface
  */
@@ -82,13 +75,15 @@ void s3eGPUImageGetContext()
     if (!_extLoad())
         return;
 
-#ifdef LOADER_CALL
+#ifdef __mips
+    // For MIPs platform we do not have asm code for stack switching 
+    // implemented. So we make LoaderCallStart call manually to set GlobalLock
     s3eDeviceLoaderCallStart(S3E_TRUE, NULL);
 #endif
 
     g_Ext.m_s3eGPUImageGetContext();
 
-#ifdef LOADER_CALL
+#ifdef __mips
     s3eDeviceLoaderCallDone(S3E_TRUE, NULL);
 #endif
 
@@ -102,13 +97,15 @@ char * s3eGPUImageTake(s3eGPUImageEventDoIt evnt, void * userData)
     if (!_extLoad())
         return 0;
 
-#ifdef LOADER_CALL
+#ifdef __mips
+    // For MIPs platform we do not have asm code for stack switching 
+    // implemented. So we make LoaderCallStart call manually to set GlobalLock
     s3eDeviceLoaderCallStart(S3E_TRUE, NULL);
 #endif
 
     char * ret = g_Ext.m_s3eGPUImageTake(evnt, userData);
 
-#ifdef LOADER_CALL
+#ifdef __mips
     s3eDeviceLoaderCallDone(S3E_TRUE, NULL);
 #endif
 
