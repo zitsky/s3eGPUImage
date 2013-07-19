@@ -21,4 +21,5 @@
 -(void)ReleaseSystem;
 -(void)CopyToHomeUserDirectory;
 -(char*)GetFilename;
+-(void)s3eSetTex:(unsigned int)texId;
 @end
