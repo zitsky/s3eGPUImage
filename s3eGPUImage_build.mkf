@@ -37,8 +37,12 @@ if {{defined I3D_OS_IPHONE}}
         ["source"]
         (use_first_found, source/iphone, source/generic)
         s3eGPUImage_platform.mm
-        #Add any iphone-specific files here
+        #A  d any iphone-specific files here
     }
+    deployments
+    {  
+        iphone-link-opts=" -fobjc-arc" 
+    }   
 }
 
 if {{defined I3D_OS_WINDOWS}}
