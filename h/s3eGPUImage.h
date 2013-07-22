@@ -28,9 +28,7 @@
 		s3eGPUImgStartCapture,
 		s3eGPUImgStopCapture,
 		s3eGPUImgCopyFileToDash,
-		s3eGPUImgGetFileName,
-		s3eGPUImgGetTextureOut,
-		s3eGPUImgSetTExtureIn
+		s3eGPUImgGetFileName
 	};
 // \cond HIDDEN_DEFINES
 S3E_BEGIN_C_DECL
