@@ -23,7 +23,7 @@ void s3eGPUImageTerminate_platform()
 
 void s3eGPUImageGetContext_platform()
 {
-	s3eEdkIPhoneSetAudioInputEnabled(true);
+	//s3eEdkIPhoneSetAudioInputEnabled(true);
 	[[WrapAWrapper sharedInstance] InitialContext];
 }
 
