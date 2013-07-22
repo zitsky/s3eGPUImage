@@ -8,6 +8,7 @@
  */
 #include "s3eGPUImage_internal.h"
 #include "WrapAWrapper.h"
+#include "s3eEdk_iphone.h"
 
 s3eResult s3eGPUImageInit_platform()
 {
@@ -22,6 +23,7 @@ void s3eGPUImageTerminate_platform()
 
 void s3eGPUImageGetContext_platform()
 {
+	s3eEdkIPhoneSetAudioInputEnabled(true);
 	[[WrapAWrapper sharedInstance] InitialContext];
 }
 
