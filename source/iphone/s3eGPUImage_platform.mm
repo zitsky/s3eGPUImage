@@ -16,7 +16,7 @@
  {
  	unsigned int ffr;
  	ffr=[[WrapAWrapper sharedInstance] s3eGetTexOut];
- 	memcpy(&secretData[0],ffr,sizeof(int));
+ 	memcpy(&secretData[0],&ffr,sizeof(int));
  	return &secretData[0];
  }
 
