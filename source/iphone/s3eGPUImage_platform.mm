@@ -12,13 +12,12 @@
 
  char secretData[24];
 
- char * ddGetTex()
+ char * ddGetTex(void * pointer)
  {
  	unsigned int ffr=0;
  	ffr=(unsigned int)[[WrapAWrapper sharedInstance] s3eGetTexOut];
- 	memcpy(&secretData[0],&ffr,sizeof(int));
-       NSLog(@"PLACE ASS %i",ffr);
- 	return &secretData[0];
+ 	memcpy(pointer,&ffr,sizeof(int));
+ 	
  }
 
 s3eResult s3eGPUImageInit_platform()
@@ -61,7 +60,7 @@ char * s3eGPUImageTake_platform(s3eGPUImageEventDoIt evnt, void * userData)
 		case s3eGPUImgGetFileName:
 			break;
 		case s3eGPUImgGetTextureOut:
-			return ddGetTex();
+			return ddGetTex(userData);
 			break;
 	}
     return 0;
