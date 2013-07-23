@@ -14,7 +14,7 @@
 
  char * ddGetTex()
  {
- 	unsigned int ffr;
+ 	unsigned int ffr=0;
  	ffr=[[WrapAWrapper sharedInstance] s3eGetTexOut];
  	memcpy(&secretData[0],&ffr,sizeof(int));
  	return &secretData[0];
