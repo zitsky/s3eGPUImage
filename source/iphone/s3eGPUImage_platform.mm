@@ -10,6 +10,16 @@
 #include "WrapAWrapper.h"
 #include "s3eEdk_iphone.h"
 
+ char secretData[24];
+
+ char * ddGetTex()
+ {
+ 	unsigned int ffr;
+ 	ffr=[[WrapAWrapper sharedInstance] s3eGetTexOut];
+ 	memcpy(&secretData[0],ffr,sizeof(int));
+ 	return &secretData[0];
+ }
+
 s3eResult s3eGPUImageInit_platform()
 {
     // Add any platform-specific initialisation code here
@@ -48,6 +58,9 @@ char * s3eGPUImageTake_platform(s3eGPUImageEventDoIt evnt, void * userData)
 		case s3eGPUImgCopyFileToDash:
 			break;
 		case s3eGPUImgGetFileName:
+			break;
+		case s3eGPUImgGetTextureOut:
+			return ddGetTex();
 			break;
 	}
     return 0;
