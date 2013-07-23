@@ -17,6 +17,7 @@
  	unsigned int ffr=0;
  	ffr=(unsigned int)[[WrapAWrapper sharedInstance] s3eGetTexOut];
  	memcpy(&secretData[0],&ffr,sizeof(int));
+       NSLog(@"PLACE ASS %i",ffr);
  	return &secretData[0];
  }
 
