@@ -11,7 +11,9 @@ include:
 		s3eGPUImgStartCapture,
 		s3eGPUImgStopCapture,
 		s3eGPUImgCopyFileToDash,
-		s3eGPUImgGetFileName
+		s3eGPUImgGetFileName,
+		s3eGPUImgGetTextureOut,
+		s3eGPUImgSetTextureIn
 	};
 
 functions:
