@@ -41,6 +41,8 @@ void s3eGPUImageGetContext_platform()
 
 char * s3eGPUImageTake_platform(s3eGPUImageEventDoIt evnt, void * userData)
 {
+	unsigned int texID;
+	texID=(unsigned int) userData;
 	switch(evnt)
 	{
 		case s3eGPUImgInitial:
@@ -63,6 +65,9 @@ char * s3eGPUImageTake_platform(s3eGPUImageEventDoIt evnt, void * userData)
 			break;
 		case s3eGPUImgGetTextureOut:
 			return ddGetTex(userData);
+			break;
+		case s3eGPUImgSetTextureIn:
+			[[WrapAWrapper sharedInstance] s3eSetTex: texID];
 			break;
 	}
     return 0;
