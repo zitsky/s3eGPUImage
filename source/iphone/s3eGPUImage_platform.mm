@@ -18,6 +18,7 @@
  	ffr=(unsigned int)[[WrapAWrapper sharedInstance] s3eGetTexOut];
  	memcpy(pointer,&ffr,sizeof(int));
 	NSLog(@"POINTEXTURE %i",ffr);
+	return (char*)ffr;
  	
  }
 
