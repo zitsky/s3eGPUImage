@@ -19,3 +19,4 @@ include:
 functions:
 	void s3eGPUImageGetContext() 
 	char * s3eGPUImageTake(s3eGPUImageEventDoIt evnt,void * userData) 0 run_on_os_thread
+	void s3eMyGLGenTextures(unsigned int col,unsigned int * point) run_on_os_thread;
