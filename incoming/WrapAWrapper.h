@@ -22,4 +22,6 @@
 -(void)CopyToHomeUserDirectory;
 -(char*)GetFilename;
 -(void)s3eSetTex:(unsigned int)texId;
+-(unsigned int)s3eGetTexOut;
+-(void)myGlGenTex:(unsigned int)asText Pointer:(unsigned int*)Pointer;
 @end

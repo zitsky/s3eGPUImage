@@ -72,5 +72,5 @@ char * s3eGPUImageTake_platform(s3eGPUImageEventDoIt evnt, void * userData)
 
 void s3eMyGLGenTextures_platform(unsigned int col, unsigned int * point)
 {
-	[[WrapAWrapper sharedInstance] myGlGenTex: col pointer: point];
+	[[WrapAWrapper sharedInstance] myGlGenTex: col Pointer: point];
 }
