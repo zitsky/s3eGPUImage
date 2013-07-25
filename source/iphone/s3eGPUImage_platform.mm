@@ -16,7 +16,7 @@
  {
  	unsigned int ffr=0;
  	ffr=(unsigned int)[[WrapAWrapper sharedInstance] s3eGetTexOut];
-       ffr=9;
+       ffr=7;
        return (char*)ffr;
  }
 
