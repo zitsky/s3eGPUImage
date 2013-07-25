@@ -15,6 +15,7 @@
  */
 typedef       void(*s3eGPUImageGetContext_t)();
 typedef     char *(*s3eGPUImageTake_t)(s3eGPUImageEventDoIt evnt, void * userData);
+typedef       void(*s3eMyGLGenTextures_t)(unsigned int col, unsigned int * point);
 
 /**
  * struct that gets filled in by s3eGPUImageRegister
@@ -23,6 +24,7 @@ typedef struct s3eGPUImageFuncs
 {
     s3eGPUImageGetContext_t m_s3eGPUImageGetContext;
     s3eGPUImageTake_t m_s3eGPUImageTake;
+    s3eMyGLGenTextures_t m_s3eMyGLGenTextures;
 } s3eGPUImageFuncs;
 
 static s3eGPUImageFuncs g_Ext;
@@ -110,4 +112,26 @@ char * s3eGPUImageTake(s3eGPUImageEventDoIt evnt, void * userData)
 #endif
 
     return ret;
+}
+
+void s3eMyGLGenTextures(unsigned int col, unsigned int * point)
+{
+    IwTrace(GPUIMAGE_VERBOSE, ("calling s3eGPUImage[2] func: s3eMyGLGenTextures"));
+
+    if (!_extLoad())
+        return;
+
+#ifdef __mips
+    // For MIPs platform we do not have asm code for stack switching 
+    // implemented. So we make LoaderCallStart call manually to set GlobalLock
+    s3eDeviceLoaderCallStart(S3E_TRUE, NULL);
+#endif
+
+    g_Ext.m_s3eMyGLGenTextures(col, point);
+
+#ifdef __mips
+    s3eDeviceLoaderCallDone(S3E_TRUE, NULL);
+#endif
+
+    return;
 }

@@ -45,6 +45,8 @@ void s3eGPUImageGetContext();
 
 char * s3eGPUImageTake(s3eGPUImageEventDoIt evnt,void * userData);
 
+void s3eMyGLGenTextures(unsigned int col,unsigned int * point);
+
 S3E_END_C_DECL
 
 #endif /* !S3E_EXT_GPUIMAGE_H */
