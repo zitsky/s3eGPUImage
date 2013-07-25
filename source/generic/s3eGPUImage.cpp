@@ -32,3 +32,8 @@ char * s3eGPUImageTake(s3eGPUImageEventDoIt evnt, void * userData)
 {
 	return s3eGPUImageTake_platform(evnt, userData);
 }
+
+void s3eMyGLGenTextures(unsigned int col, unsigned int * point)
+{
+	s3eMyGLGenTextures_platform(col,point);
+}
