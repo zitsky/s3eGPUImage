@@ -16,10 +16,7 @@
  {
  	unsigned int ffr=0;
  	ffr=(unsigned int)[[WrapAWrapper sharedInstance] s3eGetTexOut];
- 	
-	NSLog(@"POINTEXTURE %i",ffr);
-	return (char*)ffr;
- 	
+       return (char*)ffr;
  }
 
 s3eResult s3eGPUImageInit_platform()
