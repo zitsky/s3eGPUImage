@@ -94,10 +94,11 @@ extra_objects = SplitN(r'''
 /Users/lolsto/s3eGPUImage/incoming/GPUImageShiTomasiFeatureDetectionFilter.o
 /Users/lolsto/s3eGPUImage/incoming/GPUImageThresholdSketchFilter.o
 /Users/lolsto/s3eGPUImage/incoming/GPUImageLuminosity.o
-/Users/lolsto/s3eGPUImage/incoming/GPUImageFilter.o
+/Users/lolsto/s3eGPUImage/incoming/GPUImageCrosshatchFilter.o
 /Users/lolsto/s3eGPUImage/incoming/GPUImageTwoPassTextureSamplingFilter.o
 /Users/lolsto/s3eGPUImage/incoming/GPUImageChromaKeyFilter.o
 /Users/lolsto/s3eGPUImage/incoming/GPUImageDilationFilter.o
+/Users/lolsto/s3eGPUImage/incoming/GPUImageFilter.o
 /Users/lolsto/s3eGPUImage/incoming/GPUImageColorPackingFilter.o
 /Users/lolsto/s3eGPUImage/incoming/GPUImageRGBClosingFilter.o
 /Users/lolsto/s3eGPUImage/incoming/GPUImageContrastFilter.o
@@ -157,8 +158,8 @@ extra_objects = SplitN(r'''
 /Users/lolsto/s3eGPUImage/incoming/GPUImageEmbossFilter.o
 /Users/lolsto/s3eGPUImage/incoming/GPUImageContext.o
 /Users/lolsto/s3eGPUImage/incoming/GPUImageHalftoneFilter.o
+/Users/lolsto/s3eGPUImage/incoming/GLGenTextCBImpl.o
 /Users/lolsto/s3eGPUImage/incoming/GPUImageColorInvertFilter.o
-/Users/lolsto/s3eGPUImage/incoming/GPUImageCrosshatchFilter.o
 /Users/lolsto/s3eGPUImage/incoming/GPUImageParallelCoordinateLineTransformFilter.o
 /Users/lolsto/s3eGPUImage/incoming/GPUImageBulgeDistortionFilter.o
 /Users/lolsto/s3eGPUImage/incoming/GPUImageOverlayBlendFilter.o
