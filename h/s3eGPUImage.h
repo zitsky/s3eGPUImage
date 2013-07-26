@@ -20,6 +20,8 @@
 
 	struct s3eGPUImage;
 
+	typedef void (s3eGPUImageGlGenTextures)(unsigned int, unsigned int*);
+
 	enum s3eGPUImageEventDoIt
 	{
 		s3eGPUImgInitial,
@@ -46,6 +48,8 @@ void s3eGPUImageGetContext();
 char * s3eGPUImageTake(s3eGPUImageEventDoIt evnt,void * userData);
 
 void s3eMyGLGenTextures(unsigned int col,unsigned int * point);
+
+void s3eRegisterGlGenTexturesCB(s3eGPUImageGlGenTextures cb);
 
 S3E_END_C_DECL
 

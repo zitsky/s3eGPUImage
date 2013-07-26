@@ -1,0 +1,1065 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildRule section */
+
+
+  
+/* End PBXBuildRule section */
+    
+/* Begin PBXBuildFile section */
+
+		A0000000000000000000000b /* edk_build.py in s3eGPUImage */ = {isa = PBXBuildFile; fileRef = B0000000000000000000000c;  };
+		A0000000000000000000000f /* edk.mkf in edk */ = {isa = PBXBuildFile; fileRef = B00000000000000000000010;  };
+		A00000000000000000000012 /* s3eEdk.h in h */ = {isa = PBXBuildFile; fileRef = B00000000000000000000013;  };
+		A00000000000000000000015 /* s3eEdkError.h in h */ = {isa = PBXBuildFile; fileRef = B00000000000000000000016;  };
+		A00000000000000000000017 /* s3eEdk_android.h in h */ = {isa = PBXBuildFile; fileRef = B00000000000000000000018;  };
+		A00000000000000000000019 /* s3eEdk_iphone.h in h */ = {isa = PBXBuildFile; fileRef = B0000000000000000000001a;  };
+		A0000000000000000000001b /* s3eEdk_windows.h in h */ = {isa = PBXBuildFile; fileRef = B0000000000000000000001c;  };
+		A0000000000000000000001d /* AirplayVersion.h in S3E API */ = {isa = PBXBuildFile; fileRef = B0000000000000000000001e;  };
+		A00000000000000000000020 /* MarmaladeVersion.h in S3E API */ = {isa = PBXBuildFile; fileRef = B00000000000000000000021;  };
+		A00000000000000000000022 /* s3e.h in S3E API */ = {isa = PBXBuildFile; fileRef = B00000000000000000000023;  };
+		A00000000000000000000024 /* s3eAccelerometer.h in S3E API */ = {isa = PBXBuildFile; fileRef = B00000000000000000000025;  };
+		A00000000000000000000026 /* s3eAudio.h in S3E API */ = {isa = PBXBuildFile; fileRef = B00000000000000000000027;  };
+		A00000000000000000000028 /* s3eCamera.h in S3E API */ = {isa = PBXBuildFile; fileRef = B00000000000000000000029;  };
+		A0000000000000000000002a /* s3eClipboard.h in S3E API */ = {isa = PBXBuildFile; fileRef = B0000000000000000000002b;  };
+		A0000000000000000000002c /* s3eCompass.h in S3E API */ = {isa = PBXBuildFile; fileRef = B0000000000000000000002d;  };
+		A0000000000000000000002e /* s3eCompression.h in S3E API */ = {isa = PBXBuildFile; fileRef = B0000000000000000000002f;  };
+		A00000000000000000000030 /* s3eConfig.h in S3E API */ = {isa = PBXBuildFile; fileRef = B00000000000000000000031;  };
+		A00000000000000000000032 /* s3eContacts.h in S3E API */ = {isa = PBXBuildFile; fileRef = B00000000000000000000033;  };
+		A00000000000000000000034 /* s3eCrypto.h in S3E API */ = {isa = PBXBuildFile; fileRef = B00000000000000000000035;  };
+		A00000000000000000000036 /* s3eDebug.h in S3E API */ = {isa = PBXBuildFile; fileRef = B00000000000000000000037;  };
+		A00000000000000000000038 /* s3eDevice.h in S3E API */ = {isa = PBXBuildFile; fileRef = B00000000000000000000039;  };
+		A0000000000000000000003a /* s3eExt.h in S3E API */ = {isa = PBXBuildFile; fileRef = B0000000000000000000003b;  };
+		A0000000000000000000003c /* s3eFile.h in S3E API */ = {isa = PBXBuildFile; fileRef = B0000000000000000000003d;  };
+		A0000000000000000000003e /* s3eGL.h in S3E API */ = {isa = PBXBuildFile; fileRef = B0000000000000000000003f;  };
+		A00000000000000000000040 /* s3eHash.h in S3E API */ = {isa = PBXBuildFile; fileRef = B00000000000000000000041;  };
+		A00000000000000000000042 /* s3eKeyboard.h in S3E API */ = {isa = PBXBuildFile; fileRef = B00000000000000000000043;  };
+		A00000000000000000000044 /* s3eLicense.h in S3E API */ = {isa = PBXBuildFile; fileRef = B00000000000000000000045;  };
+		A00000000000000000000046 /* s3eLocation.h in S3E API */ = {isa = PBXBuildFile; fileRef = B00000000000000000000047;  };
+		A00000000000000000000048 /* s3eMemory.h in S3E API */ = {isa = PBXBuildFile; fileRef = B00000000000000000000049;  };
+		A0000000000000000000004a /* s3ePointer.h in S3E API */ = {isa = PBXBuildFile; fileRef = B0000000000000000000004b;  };
+		A0000000000000000000004c /* s3eSecureStorage.h in S3E API */ = {isa = PBXBuildFile; fileRef = B0000000000000000000004d;  };
+		A0000000000000000000004e /* s3eSocket.h in S3E API */ = {isa = PBXBuildFile; fileRef = B0000000000000000000004f;  };
+		A00000000000000000000050 /* s3eSound.h in S3E API */ = {isa = PBXBuildFile; fileRef = B00000000000000000000051;  };
+		A00000000000000000000052 /* s3eSoundRecord.h in S3E API */ = {isa = PBXBuildFile; fileRef = B00000000000000000000053;  };
+		A00000000000000000000054 /* s3eSurface.h in S3E API */ = {isa = PBXBuildFile; fileRef = B00000000000000000000055;  };
+		A00000000000000000000056 /* s3eThread.h in S3E API */ = {isa = PBXBuildFile; fileRef = B00000000000000000000057;  };
+		A00000000000000000000058 /* s3eTimer.h in S3E API */ = {isa = PBXBuildFile; fileRef = B00000000000000000000059;  };
+		A0000000000000000000005a /* s3eTypes.h in S3E API */ = {isa = PBXBuildFile; fileRef = B0000000000000000000005b;  };
+		A0000000000000000000005c /* s3eVersion.h in S3E API */ = {isa = PBXBuildFile; fileRef = B0000000000000000000005d;  };
+		A0000000000000000000005e /* s3eVibra.h in S3E API */ = {isa = PBXBuildFile; fileRef = B0000000000000000000005f;  };
+		A00000000000000000000060 /* s3eVideo.h in S3E API */ = {isa = PBXBuildFile; fileRef = B00000000000000000000061;  };
+		A00000000000000000000062 /* GLProgram.o in Lib */ = {isa = PBXBuildFile; fileRef = B00000000000000000000063;  };
+		A00000000000000000000065 /* GPUImage3x3ConvolutionFilter.o in Lib */ = {isa = PBXBuildFile; fileRef = B00000000000000000000066;  };
+		A00000000000000000000067 /* GPUImage3x3TextureSamplingFilter.o in Lib */ = {isa = PBXBuildFile; fileRef = B00000000000000000000068;  };
+		A00000000000000000000069 /* GPUImageAdaptiveThresholdFilter.o in Lib */ = {isa = PBXBuildFile; fileRef = B0000000000000000000006a;  };
+		A0000000000000000000006b /* GPUImageAddBlendFilter.o in Lib */ = {isa = PBXBuildFile; fileRef = B0000000000000000000006c;  };
+		A0000000000000000000006d /* GPUImageAlphaBlendFilter.o in Lib */ = {isa = PBXBuildFile; fileRef = B0000000000000000000006e;  };
+		A0000000000000000000006f /* GPUImageAmatorkaFilter.o in Lib */ = {isa = PBXBuildFile; fileRef = B00000000000000000000070;  };
+		A00000000000000000000071 /* GPUImageAverageColor.o in Lib */ = {isa = PBXBuildFile; fileRef = B00000000000000000000072;  };
+		A00000000000000000000073 /* GPUImageAverageLuminanceThresholdFilter.o in Lib */ = {isa = PBXBuildFile; fileRef = B00000000000000000000074;  };
+		A00000000000000000000075 /* GPUImageBilateralFilter.o in Lib */ = {isa = PBXBuildFile; fileRef = B00000000000000000000076;  };
+		A00000000000000000000077 /* GPUImageBoxBlurFilter.o in Lib */ = {isa = PBXBuildFile; fileRef = B00000000000000000000078;  };
+		A00000000000000000000079 /* GPUImageBrightnessFilter.o in Lib */ = {isa = PBXBuildFile; fileRef = B0000000000000000000007a;  };
+		A0000000000000000000007b /* GPUImageBuffer.o in Lib */ = {isa = PBXBuildFile; fileRef = B0000000000000000000007c;  };
+		A0000000000000000000007d /* GPUImageBulgeDistortionFilter.o in Lib */ = {isa = PBXBuildFile; fileRef = B0000000000000000000007e;  };
+		A0000000000000000000007f /* GPUImageCGAColorspaceFilter.o in Lib */ = {isa = PBXBuildFile; fileRef = B00000000000000000000080;  };
+		A00000000000000000000081 /* GPUImageCannyEdgeDetectionFilter.o in Lib */ = {isa = PBXBuildFile; fileRef = B00000000000000000000082;  };
+		A00000000000000000000083 /* GPUImageChromaKeyBlendFilter.o in Lib */ = {isa = PBXBuildFile; fileRef = B00000000000000000000084;  };
+		A00000000000000000000085 /* GPUImageChromaKeyFilter.o in Lib */ = {isa = PBXBuildFile; fileRef = B00000000000000000000086;  };
+		A00000000000000000000087 /* GPUImageClosingFilter.o in Lib */ = {isa = PBXBuildFile; fileRef = B00000000000000000000088;  };
+		A00000000000000000000089 /* GPUImageColorBlendFilter.o in Lib */ = {isa = PBXBuildFile; fileRef = B0000000000000000000008a;  };
+		A0000000000000000000008b /* GPUImageColorBurnBlendFilter.o in Lib */ = {isa = PBXBuildFile; fileRef = B0000000000000000000008c;  };
+		A0000000000000000000008d /* GPUImageColorDodgeBlendFilter.o in Lib */ = {isa = PBXBuildFile; fileRef = B0000000000000000000008e;  };
+		A0000000000000000000008f /* GPUImageColorInvertFilter.o in Lib */ = {isa = PBXBuildFile; fileRef = B00000000000000000000090;  };
+		A00000000000000000000091 /* GPUImageColorMatrixFilter.o in Lib */ = {isa = PBXBuildFile; fileRef = B00000000000000000000092;  };
+		A00000000000000000000093 /* GPUImageColorPackingFilter.o in Lib */ = {isa = PBXBuildFile; fileRef = B00000000000000000000094;  };
+		A00000000000000000000095 /* GPUImageContext.o in Lib */ = {isa = PBXBuildFile; fileRef = B00000000000000000000096;  };
+		A00000000000000000000097 /* GPUImageContrastFilter.o in Lib */ = {isa = PBXBuildFile; fileRef = B00000000000000000000098;  };
+		A00000000000000000000099 /* GPUImageCropFilter.o in Lib */ = {isa = PBXBuildFile; fileRef = B0000000000000000000009a;  };
+		A0000000000000000000009b /* GPUImageCrosshairGenerator.o in Lib */ = {isa = PBXBuildFile; fileRef = B0000000000000000000009c;  };
+		A0000000000000000000009d /* GPUImageCrosshatchFilter.o in Lib */ = {isa = PBXBuildFile; fileRef = B0000000000000000000009e;  };
+		A0000000000000000000009f /* GPUImageDarkenBlendFilter.o in Lib */ = {isa = PBXBuildFile; fileRef = B000000000000000000000a0;  };
+		A000000000000000000000a1 /* GPUImageDifferenceBlendFilter.o in Lib */ = {isa = PBXBuildFile; fileRef = B000000000000000000000a2;  };
+		A000000000000000000000a3 /* GPUImageDilationFilter.o in Lib */ = {isa = PBXBuildFile; fileRef = B000000000000000000000a4;  };
+		A000000000000000000000a5 /* GPUImageDirectionalNonMaximumSuppressionFilter.o in Lib */ = {isa = PBXBuildFile; fileRef = B000000000000000000000a6;  };
+		A000000000000000000000a7 /* GPUImageDissolveBlendFilter.o in Lib */ = {isa = PBXBuildFile; fileRef = B000000000000000000000a8;  };
+		A000000000000000000000a9 /* GPUImageDivideBlendFilter.o in Lib */ = {isa = PBXBuildFile; fileRef = B000000000000000000000aa;  };
+		A000000000000000000000ab /* GPUImageEmbossFilter.o in Lib */ = {isa = PBXBuildFile; fileRef = B000000000000000000000ac;  };
+		A000000000000000000000ad /* GPUImageErosionFilter.o in Lib */ = {isa = PBXBuildFile; fileRef = B000000000000000000000ae;  };
+		A000000000000000000000af /* GPUImageExclusionBlendFilter.o in Lib */ = {isa = PBXBuildFile; fileRef = B000000000000000000000b0;  };
+		A000000000000000000000b1 /* GPUImageExposureFilter.o in Lib */ = {isa = PBXBuildFile; fileRef = B000000000000000000000b2;  };
+		A000000000000000000000b3 /* GPUImageFalseColorFilter.o in Lib */ = {isa = PBXBuildFile; fileRef = B000000000000000000000b4;  };
+		A000000000000000000000b5 /* GPUImageFastBlurFilter.o in Lib */ = {isa = PBXBuildFile; fileRef = B000000000000000000000b6;  };
+		A000000000000000000000b7 /* GPUImageFilter.o in Lib */ = {isa = PBXBuildFile; fileRef = B000000000000000000000b8;  };
+		A000000000000000000000b9 /* GPUImageFilterGroup.o in Lib */ = {isa = PBXBuildFile; fileRef = B000000000000000000000ba;  };
+		A000000000000000000000bb /* GPUImageFilterPipeline.o in Lib */ = {isa = PBXBuildFile; fileRef = B000000000000000000000bc;  };
+		A000000000000000000000bd /* GPUImageGammaFilter.o in Lib */ = {isa = PBXBuildFile; fileRef = B000000000000000000000be;  };
+		A000000000000000000000bf /* GPUImageGaussianBlurFilter.o in Lib */ = {isa = PBXBuildFile; fileRef = B000000000000000000000c0;  };
+		A000000000000000000000c1 /* GPUImageGaussianBlurPositionFilter.o in Lib */ = {isa = PBXBuildFile; fileRef = B000000000000000000000c2;  };
+		A000000000000000000000c3 /* GPUImageGaussianSelectiveBlurFilter.o in Lib */ = {isa = PBXBuildFile; fileRef = B000000000000000000000c4;  };
+		A000000000000000000000c5 /* GPUImageGlassSphereFilter.o in Lib */ = {isa = PBXBuildFile; fileRef = B000000000000000000000c6;  };
+		A000000000000000000000c7 /* GPUImageGrayscaleFilter.o in Lib */ = {isa = PBXBuildFile; fileRef = B000000000000000000000c8;  };
+		A000000000000000000000c9 /* GPUImageHalftoneFilter.o in Lib */ = {isa = PBXBuildFile; fileRef = B000000000000000000000ca;  };
+		A000000000000000000000cb /* GPUImageHardLightBlendFilter.o in Lib */ = {isa = PBXBuildFile; fileRef = B000000000000000000000cc;  };
+		A000000000000000000000cd /* GPUImageHarrisCornerDetectionFilter.o in Lib */ = {isa = PBXBuildFile; fileRef = B000000000000000000000ce;  };
+		A000000000000000000000cf /* GPUImageHazeFilter.o in Lib */ = {isa = PBXBuildFile; fileRef = B000000000000000000000d0;  };
+		A000000000000000000000d1 /* GPUImageHighPassFilter.o in Lib */ = {isa = PBXBuildFile; fileRef = B000000000000000000000d2;  };
+		A000000000000000000000d3 /* GPUImageHighlightShadowFilter.o in Lib */ = {isa = PBXBuildFile; fileRef = B000000000000000000000d4;  };
+		A000000000000000000000d5 /* GPUImageHistogramFilter.o in Lib */ = {isa = PBXBuildFile; fileRef = B000000000000000000000d6;  };
+		A000000000000000000000d7 /* GPUImageHistogramGenerator.o in Lib */ = {isa = PBXBuildFile; fileRef = B000000000000000000000d8;  };
+		A000000000000000000000d9 /* GPUImageHoughTransformLineDetector.o in Lib */ = {isa = PBXBuildFile; fileRef = B000000000000000000000da;  };
+		A000000000000000000000db /* GPUImageHueBlendFilter.o in Lib */ = {isa = PBXBuildFile; fileRef = B000000000000000000000dc;  };
+		A000000000000000000000dd /* GPUImageHueFilter.o in Lib */ = {isa = PBXBuildFile; fileRef = B000000000000000000000de;  };
+		A000000000000000000000df /* GPUImageJFAVoronoiFilter.o in Lib */ = {isa = PBXBuildFile; fileRef = B000000000000000000000e0;  };
+		A000000000000000000000e1 /* GPUImageKuwaharaFilter.o in Lib */ = {isa = PBXBuildFile; fileRef = B000000000000000000000e2;  };
+		A000000000000000000000e3 /* GPUImageKuwaharaRadius3Filter.o in Lib */ = {isa = PBXBuildFile; fileRef = B000000000000000000000e4;  };
+		A000000000000000000000e5 /* GPUImageLanczosResamplingFilter.o in Lib */ = {isa = PBXBuildFile; fileRef = B000000000000000000000e6;  };
+		A000000000000000000000e7 /* GPUImageLaplacianFilter.o in Lib */ = {isa = PBXBuildFile; fileRef = B000000000000000000000e8;  };
+		A000000000000000000000e9 /* GPUImageLevelsFilter.o in Lib */ = {isa = PBXBuildFile; fileRef = B000000000000000000000ea;  };
+		A000000000000000000000eb /* GPUImageLightenBlendFilter.o in Lib */ = {isa = PBXBuildFile; fileRef = B000000000000000000000ec;  };
+		A000000000000000000000ed /* GPUImageLineGenerator.o in Lib */ = {isa = PBXBuildFile; fileRef = B000000000000000000000ee;  };
+		A000000000000000000000ef /* GPUImageLinearBurnBlendFilter.o in Lib */ = {isa = PBXBuildFile; fileRef = B000000000000000000000f0;  };
+		A000000000000000000000f1 /* GPUImageLocalBinaryPatternFilter.o in Lib */ = {isa = PBXBuildFile; fileRef = B000000000000000000000f2;  };
+		A000000000000000000000f3 /* GPUImageLookupFilter.o in Lib */ = {isa = PBXBuildFile; fileRef = B000000000000000000000f4;  };
+		A000000000000000000000f5 /* GPUImageLowPassFilter.o in Lib */ = {isa = PBXBuildFile; fileRef = B000000000000000000000f6;  };
+		A000000000000000000000f7 /* GPUImageLuminanceThresholdFilter.o in Lib */ = {isa = PBXBuildFile; fileRef = B000000000000000000000f8;  };
+		A000000000000000000000f9 /* GPUImageLuminosity.o in Lib */ = {isa = PBXBuildFile; fileRef = B000000000000000000000fa;  };
+		A000000000000000000000fb /* GPUImageLuminosityBlendFilter.o in Lib */ = {isa = PBXBuildFile; fileRef = B000000000000000000000fc;  };
+		A000000000000000000000fd /* GPUImageMaskFilter.o in Lib */ = {isa = PBXBuildFile; fileRef = B000000000000000000000fe;  };
+		A000000000000000000000ff /* GPUImageMedianFilter.o in Lib */ = {isa = PBXBuildFile; fileRef = B00000000000000000000100;  };
+		A00000000000000000000101 /* GPUImageMissEtikateFilter.o in Lib */ = {isa = PBXBuildFile; fileRef = B00000000000000000000102;  };
+		A00000000000000000000103 /* GPUImageMonochromeFilter.o in Lib */ = {isa = PBXBuildFile; fileRef = B00000000000000000000104;  };
+		A00000000000000000000105 /* GPUImageMosaicFilter.o in Lib */ = {isa = PBXBuildFile; fileRef = B00000000000000000000106;  };
+		A00000000000000000000107 /* GPUImageMotionBlurFilter.o in Lib */ = {isa = PBXBuildFile; fileRef = B00000000000000000000108;  };
+		A00000000000000000000109 /* GPUImageMotionDetector.o in Lib */ = {isa = PBXBuildFile; fileRef = B0000000000000000000010a;  };
+		A0000000000000000000010b /* GPUImageMovie.o in Lib */ = {isa = PBXBuildFile; fileRef = B0000000000000000000010c;  };
+		A0000000000000000000010d /* GPUImageMovieWriter.o in Lib */ = {isa = PBXBuildFile; fileRef = B0000000000000000000010e;  };
+		A0000000000000000000010f /* GPUImageMultiplyBlendFilter.o in Lib */ = {isa = PBXBuildFile; fileRef = B00000000000000000000110;  };
+		A00000000000000000000111 /* GPUImageNobleCornerDetectionFilter.o in Lib */ = {isa = PBXBuildFile; fileRef = B00000000000000000000112;  };
+		A00000000000000000000113 /* GPUImageNonMaximumSuppressionFilter.o in Lib */ = {isa = PBXBuildFile; fileRef = B00000000000000000000114;  };
+		A00000000000000000000115 /* GPUImageNormalBlendFilter.o in Lib */ = {isa = PBXBuildFile; fileRef = B00000000000000000000116;  };
+		A00000000000000000000117 /* GPUImageOpacityFilter.o in Lib */ = {isa = PBXBuildFile; fileRef = B00000000000000000000118;  };
+		A00000000000000000000119 /* GPUImageOpeningFilter.o in Lib */ = {isa = PBXBuildFile; fileRef = B0000000000000000000011a;  };
+		A0000000000000000000011b /* GPUImageOutput.o in Lib */ = {isa = PBXBuildFile; fileRef = B0000000000000000000011c;  };
+		A0000000000000000000011d /* GPUImageOverlayBlendFilter.o in Lib */ = {isa = PBXBuildFile; fileRef = B0000000000000000000011e;  };
+		A0000000000000000000011f /* GPUImageParallelCoordinateLineTransformFilter.o in Lib */ = {isa = PBXBuildFile; fileRef = B00000000000000000000120;  };
+		A00000000000000000000121 /* GPUImagePerlinNoiseFilter.o in Lib */ = {isa = PBXBuildFile; fileRef = B00000000000000000000122;  };
+		A00000000000000000000123 /* GPUImagePicture.o in Lib */ = {isa = PBXBuildFile; fileRef = B00000000000000000000124;  };
+		A00000000000000000000125 /* GPUImagePinchDistortionFilter.o in Lib */ = {isa = PBXBuildFile; fileRef = B00000000000000000000126;  };
+		A00000000000000000000127 /* GPUImagePixellateFilter.o in Lib */ = {isa = PBXBuildFile; fileRef = B00000000000000000000128;  };
+		A00000000000000000000129 /* GPUImagePixellatePositionFilter.o in Lib */ = {isa = PBXBuildFile; fileRef = B0000000000000000000012a;  };
+		A0000000000000000000012b /* GPUImagePoissonBlendFilter.o in Lib */ = {isa = PBXBuildFile; fileRef = B0000000000000000000012c;  };
+		A0000000000000000000012d /* GPUImagePolarPixellateFilter.o in Lib */ = {isa = PBXBuildFile; fileRef = B0000000000000000000012e;  };
+		A0000000000000000000012f /* GPUImagePolkaDotFilter.o in Lib */ = {isa = PBXBuildFile; fileRef = B00000000000000000000130;  };
+		A00000000000000000000131 /* GPUImagePosterizeFilter.o in Lib */ = {isa = PBXBuildFile; fileRef = B00000000000000000000132;  };
+		A00000000000000000000133 /* GPUImagePrewittEdgeDetectionFilter.o in Lib */ = {isa = PBXBuildFile; fileRef = B00000000000000000000134;  };
+		A00000000000000000000135 /* GPUImageRGBClosingFilter.o in Lib */ = {isa = PBXBuildFile; fileRef = B00000000000000000000136;  };
+		A00000000000000000000137 /* GPUImageRGBDilationFilter.o in Lib */ = {isa = PBXBuildFile; fileRef = B00000000000000000000138;  };
+		A00000000000000000000139 /* GPUImageRGBErosionFilter.o in Lib */ = {isa = PBXBuildFile; fileRef = B0000000000000000000013a;  };
+		A0000000000000000000013b /* GPUImageRGBFilter.o in Lib */ = {isa = PBXBuildFile; fileRef = B0000000000000000000013c;  };
+		A0000000000000000000013d /* GPUImageRGBOpeningFilter.o in Lib */ = {isa = PBXBuildFile; fileRef = B0000000000000000000013e;  };
+		A0000000000000000000013f /* GPUImageRawDataInput.o in Lib */ = {isa = PBXBuildFile; fileRef = B00000000000000000000140;  };
+		A00000000000000000000141 /* GPUImageRawDataOutput.o in Lib */ = {isa = PBXBuildFile; fileRef = B00000000000000000000142;  };
+		A00000000000000000000143 /* GPUImageSaturationBlendFilter.o in Lib */ = {isa = PBXBuildFile; fileRef = B00000000000000000000144;  };
+		A00000000000000000000145 /* GPUImageSaturationFilter.o in Lib */ = {isa = PBXBuildFile; fileRef = B00000000000000000000146;  };
+		A00000000000000000000147 /* GPUImageScreenBlendFilter.o in Lib */ = {isa = PBXBuildFile; fileRef = B00000000000000000000148;  };
+		A00000000000000000000149 /* GPUImageSepiaFilter.o in Lib */ = {isa = PBXBuildFile; fileRef = B0000000000000000000014a;  };
+		A0000000000000000000014b /* GPUImageSharpenFilter.o in Lib */ = {isa = PBXBuildFile; fileRef = B0000000000000000000014c;  };
+		A0000000000000000000014d /* GPUImageShiTomasiFeatureDetectionFilter.o in Lib */ = {isa = PBXBuildFile; fileRef = B0000000000000000000014e;  };
+		A0000000000000000000014f /* GPUImageSingleComponentFastBlurFilter.o in Lib */ = {isa = PBXBuildFile; fileRef = B00000000000000000000150;  };
+		A00000000000000000000151 /* GPUImageSingleComponentGaussianBlurFilter.o in Lib */ = {isa = PBXBuildFile; fileRef = B00000000000000000000152;  };
+		A00000000000000000000153 /* GPUImageSketchFilter.o in Lib */ = {isa = PBXBuildFile; fileRef = B00000000000000000000154;  };
+		A00000000000000000000155 /* GPUImageSmoothToonFilter.o in Lib */ = {isa = PBXBuildFile; fileRef = B00000000000000000000156;  };
+		A00000000000000000000157 /* GPUImageSobelEdgeDetectionFilter.o in Lib */ = {isa = PBXBuildFile; fileRef = B00000000000000000000158;  };
+		A00000000000000000000159 /* GPUImageSoftEleganceFilter.o in Lib */ = {isa = PBXBuildFile; fileRef = B0000000000000000000015a;  };
+		A0000000000000000000015b /* GPUImageSoftLightBlendFilter.o in Lib */ = {isa = PBXBuildFile; fileRef = B0000000000000000000015c;  };
+		A0000000000000000000015d /* GPUImageSolidColorGenerator.o in Lib */ = {isa = PBXBuildFile; fileRef = B0000000000000000000015e;  };
+		A0000000000000000000015f /* GPUImageSourceOverBlendFilter.o in Lib */ = {isa = PBXBuildFile; fileRef = B00000000000000000000160;  };
+		A00000000000000000000161 /* GPUImageSphereRefractionFilter.o in Lib */ = {isa = PBXBuildFile; fileRef = B00000000000000000000162;  };
+		A00000000000000000000163 /* GPUImageStillCamera.o in Lib */ = {isa = PBXBuildFile; fileRef = B00000000000000000000164;  };
+		A00000000000000000000165 /* GPUImageStretchDistortionFilter.o in Lib */ = {isa = PBXBuildFile; fileRef = B00000000000000000000166;  };
+		A00000000000000000000167 /* GPUImageSubtractBlendFilter.o in Lib */ = {isa = PBXBuildFile; fileRef = B00000000000000000000168;  };
+		A00000000000000000000169 /* GPUImageSwirlFilter.o in Lib */ = {isa = PBXBuildFile; fileRef = B0000000000000000000016a;  };
+		A0000000000000000000016b /* GPUImageTextureInput.o in Lib */ = {isa = PBXBuildFile; fileRef = B0000000000000000000016c;  };
+		A0000000000000000000016d /* GPUImageTextureOutput.o in Lib */ = {isa = PBXBuildFile; fileRef = B0000000000000000000016e;  };
+		A0000000000000000000016f /* GPUImageThreeInputFilter.o in Lib */ = {isa = PBXBuildFile; fileRef = B00000000000000000000170;  };
+		A00000000000000000000171 /* GPUImageThresholdEdgeDetectionFilter.o in Lib */ = {isa = PBXBuildFile; fileRef = B00000000000000000000172;  };
+		A00000000000000000000173 /* GPUImageThresholdSketchFilter.o in Lib */ = {isa = PBXBuildFile; fileRef = B00000000000000000000174;  };
+		A00000000000000000000175 /* GPUImageThresholdedNonMaximumSuppressionFilter.o in Lib */ = {isa = PBXBuildFile; fileRef = B00000000000000000000176;  };
+		A00000000000000000000177 /* GPUImageTiltShiftFilter.o in Lib */ = {isa = PBXBuildFile; fileRef = B00000000000000000000178;  };
+		A00000000000000000000179 /* GPUImageToneCurveFilter.o in Lib */ = {isa = PBXBuildFile; fileRef = B0000000000000000000017a;  };
+		A0000000000000000000017b /* GPUImageToonFilter.o in Lib */ = {isa = PBXBuildFile; fileRef = B0000000000000000000017c;  };
+		A0000000000000000000017d /* GPUImageTransformFilter.o in Lib */ = {isa = PBXBuildFile; fileRef = B0000000000000000000017e;  };
+		A0000000000000000000017f /* GPUImageTwoInputCrossTextureSamplingFilter.o in Lib */ = {isa = PBXBuildFile; fileRef = B00000000000000000000180;  };
+		A00000000000000000000181 /* GPUImageTwoInputFilter.o in Lib */ = {isa = PBXBuildFile; fileRef = B00000000000000000000182;  };
+		A00000000000000000000183 /* GPUImageTwoPassFilter.o in Lib */ = {isa = PBXBuildFile; fileRef = B00000000000000000000184;  };
+		A00000000000000000000185 /* GPUImageTwoPassTextureSamplingFilter.o in Lib */ = {isa = PBXBuildFile; fileRef = B00000000000000000000186;  };
+		A00000000000000000000187 /* GPUImageUIElement.o in Lib */ = {isa = PBXBuildFile; fileRef = B00000000000000000000188;  };
+		A00000000000000000000189 /* GPUImageUnsharpMaskFilter.o in Lib */ = {isa = PBXBuildFile; fileRef = B0000000000000000000018a;  };
+		A0000000000000000000018b /* GPUImageVideoCamera.o in Lib */ = {isa = PBXBuildFile; fileRef = B0000000000000000000018c;  };
+		A0000000000000000000018d /* GPUImageView.o in Lib */ = {isa = PBXBuildFile; fileRef = B0000000000000000000018e;  };
+		A0000000000000000000018f /* GPUImageVignetteFilter.o in Lib */ = {isa = PBXBuildFile; fileRef = B00000000000000000000190;  };
+		A00000000000000000000191 /* GPUImageVoronoiConsumerFilter.o in Lib */ = {isa = PBXBuildFile; fileRef = B00000000000000000000192;  };
+		A00000000000000000000193 /* GPUImageWeakPixelInclusionFilter.o in Lib */ = {isa = PBXBuildFile; fileRef = B00000000000000000000194;  };
+		A00000000000000000000195 /* GPUImageWhiteBalanceFilter.o in Lib */ = {isa = PBXBuildFile; fileRef = B00000000000000000000196;  };
+		A00000000000000000000197 /* GPUImageXYDerivativeFilter.o in Lib */ = {isa = PBXBuildFile; fileRef = B00000000000000000000198;  };
+		A00000000000000000000199 /* GPUImageZoomBlurFilter.o in Lib */ = {isa = PBXBuildFile; fileRef = B0000000000000000000019a;  };
+		A0000000000000000000019b /* GPUimageDirectionalSobelEdgeDetectionFilter.o in Lib */ = {isa = PBXBuildFile; fileRef = B0000000000000000000019c;  };
+		A0000000000000000000019d /* WrapAWrapper.o in Lib */ = {isa = PBXBuildFile; fileRef = B0000000000000000000019e;  };
+		A0000000000000000000019f /* s3eGpuImageWrapper.o in Lib */ = {isa = PBXBuildFile; fileRef = B000000000000000000001a0;  };
+		A000000000000000000001a1 /* s3eGPUImage.defines.txt in docs */ = {isa = PBXBuildFile; fileRef = B000000000000000000001a2;  };
+		A000000000000000000001a4 /* s3eGPUImage.s4e in s3eGPUImage */ = {isa = PBXBuildFile; fileRef = B000000000000000000001a5;  };
+		A000000000000000000001a6 /* s3eGPUImage_build.mkf in s3eGPUImage */ = {isa = PBXBuildFile; fileRef = B000000000000000000001a7;  };
+		A000000000000000000001a8 /* s3eGPUImage_iphone.mkb in root */ = {isa = PBXBuildFile; fileRef = B000000000000000000001a9;  };
+		A000000000000000000001aa /* s3eGPUImage.cpp in source */ = {isa = PBXBuildFile; fileRef = B000000000000000000001ab;  };
+		A000000000000000000001ad /* s3eGPUImage_register.cpp in source */ = {isa = PBXBuildFile; fileRef = B000000000000000000001ae;  };
+		A000000000000000000001af /* s3eGPUImage_autodefs.h in h */ = {isa = PBXBuildFile; fileRef = B000000000000000000001b0;  };
+		A000000000000000000001b2 /* s3eGPUImage_internal.h in h */ = {isa = PBXBuildFile; fileRef = B000000000000000000001b3;  };
+		A000000000000000000001b4 /* s3eGPUImage_platform.mm in source */ = {isa = PBXBuildFile; fileRef = B000000000000000000001b5;  };
+
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+
+		ref_s3eGPUImage_iphone_a /* s3eGPUImage_iphone */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = s3eGPUImage_iphone; sourceTree = "<absolute>"; };
+		B0000000000000000000000c /* edk_build.py in s3eGPUImage */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; name = "edk_build.py"; path = "/Developer/Marmalade/6.2/s3e/edk/builder/edk_build.py";  sourceTree = "<absolute>"; };
+		B00000000000000000000010 /* edk.mkf in edk */ = {isa = PBXFileReference; lastKnownFileType = file; name = "edk.mkf"; path = "/Developer/Marmalade/6.2/s3e/edk/edk.mkf";  sourceTree = "<absolute>"; };
+		B00000000000000000000013 /* s3eEdk.h in h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "s3eEdk.h"; path = "/Developer/Marmalade/6.2/s3e/edk/h/s3eEdk.h";  sourceTree = "<absolute>"; };
+		B00000000000000000000016 /* s3eEdkError.h in h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "s3eEdkError.h"; path = "/Developer/Marmalade/6.2/s3e/edk/h/s3eEdkError.h";  sourceTree = "<absolute>"; };
+		B00000000000000000000018 /* s3eEdk_android.h in h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "s3eEdk_android.h"; path = "/Developer/Marmalade/6.2/s3e/edk/h/s3eEdk_android.h";  sourceTree = "<absolute>"; };
+		B0000000000000000000001a /* s3eEdk_iphone.h in h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "s3eEdk_iphone.h"; path = "/Developer/Marmalade/6.2/s3e/edk/h/s3eEdk_iphone.h";  sourceTree = "<absolute>"; };
+		B0000000000000000000001c /* s3eEdk_windows.h in h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "s3eEdk_windows.h"; path = "/Developer/Marmalade/6.2/s3e/edk/h/s3eEdk_windows.h";  sourceTree = "<absolute>"; };
+		B0000000000000000000001e /* AirplayVersion.h in S3E API */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "AirplayVersion.h"; path = "/Developer/Marmalade/6.2/s3e/h/AirplayVersion.h";  sourceTree = "<absolute>"; };
+		B00000000000000000000021 /* MarmaladeVersion.h in S3E API */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "MarmaladeVersion.h"; path = "/Developer/Marmalade/6.2/s3e/h/MarmaladeVersion.h";  sourceTree = "<absolute>"; };
+		B00000000000000000000023 /* s3e.h in S3E API */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "s3e.h"; path = "/Developer/Marmalade/6.2/s3e/h/s3e.h";  sourceTree = "<absolute>"; };
+		B00000000000000000000025 /* s3eAccelerometer.h in S3E API */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "s3eAccelerometer.h"; path = "/Developer/Marmalade/6.2/s3e/h/s3eAccelerometer.h";  sourceTree = "<absolute>"; };
+		B00000000000000000000027 /* s3eAudio.h in S3E API */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "s3eAudio.h"; path = "/Developer/Marmalade/6.2/s3e/h/s3eAudio.h";  sourceTree = "<absolute>"; };
+		B00000000000000000000029 /* s3eCamera.h in S3E API */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "s3eCamera.h"; path = "/Developer/Marmalade/6.2/s3e/h/s3eCamera.h";  sourceTree = "<absolute>"; };
+		B0000000000000000000002b /* s3eClipboard.h in S3E API */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "s3eClipboard.h"; path = "/Developer/Marmalade/6.2/s3e/h/s3eClipboard.h";  sourceTree = "<absolute>"; };
+		B0000000000000000000002d /* s3eCompass.h in S3E API */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "s3eCompass.h"; path = "/Developer/Marmalade/6.2/s3e/h/s3eCompass.h";  sourceTree = "<absolute>"; };
+		B0000000000000000000002f /* s3eCompression.h in S3E API */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "s3eCompression.h"; path = "/Developer/Marmalade/6.2/s3e/h/s3eCompression.h";  sourceTree = "<absolute>"; };
+		B00000000000000000000031 /* s3eConfig.h in S3E API */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "s3eConfig.h"; path = "/Developer/Marmalade/6.2/s3e/h/s3eConfig.h";  sourceTree = "<absolute>"; };
+		B00000000000000000000033 /* s3eContacts.h in S3E API */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "s3eContacts.h"; path = "/Developer/Marmalade/6.2/s3e/h/s3eContacts.h";  sourceTree = "<absolute>"; };
+		B00000000000000000000035 /* s3eCrypto.h in S3E API */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "s3eCrypto.h"; path = "/Developer/Marmalade/6.2/s3e/h/s3eCrypto.h";  sourceTree = "<absolute>"; };
+		B00000000000000000000037 /* s3eDebug.h in S3E API */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "s3eDebug.h"; path = "/Developer/Marmalade/6.2/s3e/h/s3eDebug.h";  sourceTree = "<absolute>"; };
+		B00000000000000000000039 /* s3eDevice.h in S3E API */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "s3eDevice.h"; path = "/Developer/Marmalade/6.2/s3e/h/s3eDevice.h";  sourceTree = "<absolute>"; };
+		B0000000000000000000003b /* s3eExt.h in S3E API */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "s3eExt.h"; path = "/Developer/Marmalade/6.2/s3e/h/s3eExt.h";  sourceTree = "<absolute>"; };
+		B0000000000000000000003d /* s3eFile.h in S3E API */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "s3eFile.h"; path = "/Developer/Marmalade/6.2/s3e/h/s3eFile.h";  sourceTree = "<absolute>"; };
+		B0000000000000000000003f /* s3eGL.h in S3E API */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "s3eGL.h"; path = "/Developer/Marmalade/6.2/s3e/h/s3eGL.h";  sourceTree = "<absolute>"; };
+		B00000000000000000000041 /* s3eHash.h in S3E API */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "s3eHash.h"; path = "/Developer/Marmalade/6.2/s3e/h/s3eHash.h";  sourceTree = "<absolute>"; };
+		B00000000000000000000043 /* s3eKeyboard.h in S3E API */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "s3eKeyboard.h"; path = "/Developer/Marmalade/6.2/s3e/h/s3eKeyboard.h";  sourceTree = "<absolute>"; };
+		B00000000000000000000045 /* s3eLicense.h in S3E API */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "s3eLicense.h"; path = "/Developer/Marmalade/6.2/s3e/h/s3eLicense.h";  sourceTree = "<absolute>"; };
+		B00000000000000000000047 /* s3eLocation.h in S3E API */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "s3eLocation.h"; path = "/Developer/Marmalade/6.2/s3e/h/s3eLocation.h";  sourceTree = "<absolute>"; };
+		B00000000000000000000049 /* s3eMemory.h in S3E API */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "s3eMemory.h"; path = "/Developer/Marmalade/6.2/s3e/h/s3eMemory.h";  sourceTree = "<absolute>"; };
+		B0000000000000000000004b /* s3ePointer.h in S3E API */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "s3ePointer.h"; path = "/Developer/Marmalade/6.2/s3e/h/s3ePointer.h";  sourceTree = "<absolute>"; };
+		B0000000000000000000004d /* s3eSecureStorage.h in S3E API */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "s3eSecureStorage.h"; path = "/Developer/Marmalade/6.2/s3e/h/s3eSecureStorage.h";  sourceTree = "<absolute>"; };
+		B0000000000000000000004f /* s3eSocket.h in S3E API */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "s3eSocket.h"; path = "/Developer/Marmalade/6.2/s3e/h/s3eSocket.h";  sourceTree = "<absolute>"; };
+		B00000000000000000000051 /* s3eSound.h in S3E API */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "s3eSound.h"; path = "/Developer/Marmalade/6.2/s3e/h/s3eSound.h";  sourceTree = "<absolute>"; };
+		B00000000000000000000053 /* s3eSoundRecord.h in S3E API */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "s3eSoundRecord.h"; path = "/Developer/Marmalade/6.2/s3e/h/s3eSoundRecord.h";  sourceTree = "<absolute>"; };
+		B00000000000000000000055 /* s3eSurface.h in S3E API */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "s3eSurface.h"; path = "/Developer/Marmalade/6.2/s3e/h/s3eSurface.h";  sourceTree = "<absolute>"; };
+		B00000000000000000000057 /* s3eThread.h in S3E API */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "s3eThread.h"; path = "/Developer/Marmalade/6.2/s3e/h/s3eThread.h";  sourceTree = "<absolute>"; };
+		B00000000000000000000059 /* s3eTimer.h in S3E API */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "s3eTimer.h"; path = "/Developer/Marmalade/6.2/s3e/h/s3eTimer.h";  sourceTree = "<absolute>"; };
+		B0000000000000000000005b /* s3eTypes.h in S3E API */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "s3eTypes.h"; path = "/Developer/Marmalade/6.2/s3e/h/s3eTypes.h";  sourceTree = "<absolute>"; };
+		B0000000000000000000005d /* s3eVersion.h in S3E API */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "s3eVersion.h"; path = "/Developer/Marmalade/6.2/s3e/h/s3eVersion.h";  sourceTree = "<absolute>"; };
+		B0000000000000000000005f /* s3eVibra.h in S3E API */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "s3eVibra.h"; path = "/Developer/Marmalade/6.2/s3e/h/s3eVibra.h";  sourceTree = "<absolute>"; };
+		B00000000000000000000061 /* s3eVideo.h in S3E API */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "s3eVideo.h"; path = "/Developer/Marmalade/6.2/s3e/h/s3eVideo.h";  sourceTree = "<absolute>"; };
+		B00000000000000000000063 /* GLProgram.o in Lib */ = {isa = PBXFileReference; lastKnownFileType = file; name = "GLProgram.o"; path = "/Users/lolsto/s3eGPUImage/incoming/GLProgram.o";  sourceTree = "<absolute>"; };
+		B00000000000000000000066 /* GPUImage3x3ConvolutionFilter.o in Lib */ = {isa = PBXFileReference; lastKnownFileType = file; name = "GPUImage3x3ConvolutionFilter.o"; path = "/Users/lolsto/s3eGPUImage/incoming/GPUImage3x3ConvolutionFilter.o";  sourceTree = "<absolute>"; };
+		B00000000000000000000068 /* GPUImage3x3TextureSamplingFilter.o in Lib */ = {isa = PBXFileReference; lastKnownFileType = file; name = "GPUImage3x3TextureSamplingFilter.o"; path = "/Users/lolsto/s3eGPUImage/incoming/GPUImage3x3TextureSamplingFilter.o";  sourceTree = "<absolute>"; };
+		B0000000000000000000006a /* GPUImageAdaptiveThresholdFilter.o in Lib */ = {isa = PBXFileReference; lastKnownFileType = file; name = "GPUImageAdaptiveThresholdFilter.o"; path = "/Users/lolsto/s3eGPUImage/incoming/GPUImageAdaptiveThresholdFilter.o";  sourceTree = "<absolute>"; };
+		B0000000000000000000006c /* GPUImageAddBlendFilter.o in Lib */ = {isa = PBXFileReference; lastKnownFileType = file; name = "GPUImageAddBlendFilter.o"; path = "/Users/lolsto/s3eGPUImage/incoming/GPUImageAddBlendFilter.o";  sourceTree = "<absolute>"; };
+		B0000000000000000000006e /* GPUImageAlphaBlendFilter.o in Lib */ = {isa = PBXFileReference; lastKnownFileType = file; name = "GPUImageAlphaBlendFilter.o"; path = "/Users/lolsto/s3eGPUImage/incoming/GPUImageAlphaBlendFilter.o";  sourceTree = "<absolute>"; };
+		B00000000000000000000070 /* GPUImageAmatorkaFilter.o in Lib */ = {isa = PBXFileReference; lastKnownFileType = file; name = "GPUImageAmatorkaFilter.o"; path = "/Users/lolsto/s3eGPUImage/incoming/GPUImageAmatorkaFilter.o";  sourceTree = "<absolute>"; };
+		B00000000000000000000072 /* GPUImageAverageColor.o in Lib */ = {isa = PBXFileReference; lastKnownFileType = file; name = "GPUImageAverageColor.o"; path = "/Users/lolsto/s3eGPUImage/incoming/GPUImageAverageColor.o";  sourceTree = "<absolute>"; };
+		B00000000000000000000074 /* GPUImageAverageLuminanceThresholdFilter.o in Lib */ = {isa = PBXFileReference; lastKnownFileType = file; name = "GPUImageAverageLuminanceThresholdFilter.o"; path = "/Users/lolsto/s3eGPUImage/incoming/GPUImageAverageLuminanceThresholdFilter.o";  sourceTree = "<absolute>"; };
+		B00000000000000000000076 /* GPUImageBilateralFilter.o in Lib */ = {isa = PBXFileReference; lastKnownFileType = file; name = "GPUImageBilateralFilter.o"; path = "/Users/lolsto/s3eGPUImage/incoming/GPUImageBilateralFilter.o";  sourceTree = "<absolute>"; };
+		B00000000000000000000078 /* GPUImageBoxBlurFilter.o in Lib */ = {isa = PBXFileReference; lastKnownFileType = file; name = "GPUImageBoxBlurFilter.o"; path = "/Users/lolsto/s3eGPUImage/incoming/GPUImageBoxBlurFilter.o";  sourceTree = "<absolute>"; };
+		B0000000000000000000007a /* GPUImageBrightnessFilter.o in Lib */ = {isa = PBXFileReference; lastKnownFileType = file; name = "GPUImageBrightnessFilter.o"; path = "/Users/lolsto/s3eGPUImage/incoming/GPUImageBrightnessFilter.o";  sourceTree = "<absolute>"; };
+		B0000000000000000000007c /* GPUImageBuffer.o in Lib */ = {isa = PBXFileReference; lastKnownFileType = file; name = "GPUImageBuffer.o"; path = "/Users/lolsto/s3eGPUImage/incoming/GPUImageBuffer.o";  sourceTree = "<absolute>"; };
+		B0000000000000000000007e /* GPUImageBulgeDistortionFilter.o in Lib */ = {isa = PBXFileReference; lastKnownFileType = file; name = "GPUImageBulgeDistortionFilter.o"; path = "/Users/lolsto/s3eGPUImage/incoming/GPUImageBulgeDistortionFilter.o";  sourceTree = "<absolute>"; };
+		B00000000000000000000080 /* GPUImageCGAColorspaceFilter.o in Lib */ = {isa = PBXFileReference; lastKnownFileType = file; name = "GPUImageCGAColorspaceFilter.o"; path = "/Users/lolsto/s3eGPUImage/incoming/GPUImageCGAColorspaceFilter.o";  sourceTree = "<absolute>"; };
+		B00000000000000000000082 /* GPUImageCannyEdgeDetectionFilter.o in Lib */ = {isa = PBXFileReference; lastKnownFileType = file; name = "GPUImageCannyEdgeDetectionFilter.o"; path = "/Users/lolsto/s3eGPUImage/incoming/GPUImageCannyEdgeDetectionFilter.o";  sourceTree = "<absolute>"; };
+		B00000000000000000000084 /* GPUImageChromaKeyBlendFilter.o in Lib */ = {isa = PBXFileReference; lastKnownFileType = file; name = "GPUImageChromaKeyBlendFilter.o"; path = "/Users/lolsto/s3eGPUImage/incoming/GPUImageChromaKeyBlendFilter.o";  sourceTree = "<absolute>"; };
+		B00000000000000000000086 /* GPUImageChromaKeyFilter.o in Lib */ = {isa = PBXFileReference; lastKnownFileType = file; name = "GPUImageChromaKeyFilter.o"; path = "/Users/lolsto/s3eGPUImage/incoming/GPUImageChromaKeyFilter.o";  sourceTree = "<absolute>"; };
+		B00000000000000000000088 /* GPUImageClosingFilter.o in Lib */ = {isa = PBXFileReference; lastKnownFileType = file; name = "GPUImageClosingFilter.o"; path = "/Users/lolsto/s3eGPUImage/incoming/GPUImageClosingFilter.o";  sourceTree = "<absolute>"; };
+		B0000000000000000000008a /* GPUImageColorBlendFilter.o in Lib */ = {isa = PBXFileReference; lastKnownFileType = file; name = "GPUImageColorBlendFilter.o"; path = "/Users/lolsto/s3eGPUImage/incoming/GPUImageColorBlendFilter.o";  sourceTree = "<absolute>"; };
+		B0000000000000000000008c /* GPUImageColorBurnBlendFilter.o in Lib */ = {isa = PBXFileReference; lastKnownFileType = file; name = "GPUImageColorBurnBlendFilter.o"; path = "/Users/lolsto/s3eGPUImage/incoming/GPUImageColorBurnBlendFilter.o";  sourceTree = "<absolute>"; };
+		B0000000000000000000008e /* GPUImageColorDodgeBlendFilter.o in Lib */ = {isa = PBXFileReference; lastKnownFileType = file; name = "GPUImageColorDodgeBlendFilter.o"; path = "/Users/lolsto/s3eGPUImage/incoming/GPUImageColorDodgeBlendFilter.o";  sourceTree = "<absolute>"; };
+		B00000000000000000000090 /* GPUImageColorInvertFilter.o in Lib */ = {isa = PBXFileReference; lastKnownFileType = file; name = "GPUImageColorInvertFilter.o"; path = "/Users/lolsto/s3eGPUImage/incoming/GPUImageColorInvertFilter.o";  sourceTree = "<absolute>"; };
+		B00000000000000000000092 /* GPUImageColorMatrixFilter.o in Lib */ = {isa = PBXFileReference; lastKnownFileType = file; name = "GPUImageColorMatrixFilter.o"; path = "/Users/lolsto/s3eGPUImage/incoming/GPUImageColorMatrixFilter.o";  sourceTree = "<absolute>"; };
+		B00000000000000000000094 /* GPUImageColorPackingFilter.o in Lib */ = {isa = PBXFileReference; lastKnownFileType = file; name = "GPUImageColorPackingFilter.o"; path = "/Users/lolsto/s3eGPUImage/incoming/GPUImageColorPackingFilter.o";  sourceTree = "<absolute>"; };
+		B00000000000000000000096 /* GPUImageContext.o in Lib */ = {isa = PBXFileReference; lastKnownFileType = file; name = "GPUImageContext.o"; path = "/Users/lolsto/s3eGPUImage/incoming/GPUImageContext.o";  sourceTree = "<absolute>"; };
+		B00000000000000000000098 /* GPUImageContrastFilter.o in Lib */ = {isa = PBXFileReference; lastKnownFileType = file; name = "GPUImageContrastFilter.o"; path = "/Users/lolsto/s3eGPUImage/incoming/GPUImageContrastFilter.o";  sourceTree = "<absolute>"; };
+		B0000000000000000000009a /* GPUImageCropFilter.o in Lib */ = {isa = PBXFileReference; lastKnownFileType = file; name = "GPUImageCropFilter.o"; path = "/Users/lolsto/s3eGPUImage/incoming/GPUImageCropFilter.o";  sourceTree = "<absolute>"; };
+		B0000000000000000000009c /* GPUImageCrosshairGenerator.o in Lib */ = {isa = PBXFileReference; lastKnownFileType = file; name = "GPUImageCrosshairGenerator.o"; path = "/Users/lolsto/s3eGPUImage/incoming/GPUImageCrosshairGenerator.o";  sourceTree = "<absolute>"; };
+		B0000000000000000000009e /* GPUImageCrosshatchFilter.o in Lib */ = {isa = PBXFileReference; lastKnownFileType = file; name = "GPUImageCrosshatchFilter.o"; path = "/Users/lolsto/s3eGPUImage/incoming/GPUImageCrosshatchFilter.o";  sourceTree = "<absolute>"; };
+		B000000000000000000000a0 /* GPUImageDarkenBlendFilter.o in Lib */ = {isa = PBXFileReference; lastKnownFileType = file; name = "GPUImageDarkenBlendFilter.o"; path = "/Users/lolsto/s3eGPUImage/incoming/GPUImageDarkenBlendFilter.o";  sourceTree = "<absolute>"; };
+		B000000000000000000000a2 /* GPUImageDifferenceBlendFilter.o in Lib */ = {isa = PBXFileReference; lastKnownFileType = file; name = "GPUImageDifferenceBlendFilter.o"; path = "/Users/lolsto/s3eGPUImage/incoming/GPUImageDifferenceBlendFilter.o";  sourceTree = "<absolute>"; };
+		B000000000000000000000a4 /* GPUImageDilationFilter.o in Lib */ = {isa = PBXFileReference; lastKnownFileType = file; name = "GPUImageDilationFilter.o"; path = "/Users/lolsto/s3eGPUImage/incoming/GPUImageDilationFilter.o";  sourceTree = "<absolute>"; };
+		B000000000000000000000a6 /* GPUImageDirectionalNonMaximumSuppressionFilter.o in Lib */ = {isa = PBXFileReference; lastKnownFileType = file; name = "GPUImageDirectionalNonMaximumSuppressionFilter.o"; path = "/Users/lolsto/s3eGPUImage/incoming/GPUImageDirectionalNonMaximumSuppressionFilter.o";  sourceTree = "<absolute>"; };
+		B000000000000000000000a8 /* GPUImageDissolveBlendFilter.o in Lib */ = {isa = PBXFileReference; lastKnownFileType = file; name = "GPUImageDissolveBlendFilter.o"; path = "/Users/lolsto/s3eGPUImage/incoming/GPUImageDissolveBlendFilter.o";  sourceTree = "<absolute>"; };
+		B000000000000000000000aa /* GPUImageDivideBlendFilter.o in Lib */ = {isa = PBXFileReference; lastKnownFileType = file; name = "GPUImageDivideBlendFilter.o"; path = "/Users/lolsto/s3eGPUImage/incoming/GPUImageDivideBlendFilter.o";  sourceTree = "<absolute>"; };
+		B000000000000000000000ac /* GPUImageEmbossFilter.o in Lib */ = {isa = PBXFileReference; lastKnownFileType = file; name = "GPUImageEmbossFilter.o"; path = "/Users/lolsto/s3eGPUImage/incoming/GPUImageEmbossFilter.o";  sourceTree = "<absolute>"; };
+		B000000000000000000000ae /* GPUImageErosionFilter.o in Lib */ = {isa = PBXFileReference; lastKnownFileType = file; name = "GPUImageErosionFilter.o"; path = "/Users/lolsto/s3eGPUImage/incoming/GPUImageErosionFilter.o";  sourceTree = "<absolute>"; };
+		B000000000000000000000b0 /* GPUImageExclusionBlendFilter.o in Lib */ = {isa = PBXFileReference; lastKnownFileType = file; name = "GPUImageExclusionBlendFilter.o"; path = "/Users/lolsto/s3eGPUImage/incoming/GPUImageExclusionBlendFilter.o";  sourceTree = "<absolute>"; };
+		B000000000000000000000b2 /* GPUImageExposureFilter.o in Lib */ = {isa = PBXFileReference; lastKnownFileType = file; name = "GPUImageExposureFilter.o"; path = "/Users/lolsto/s3eGPUImage/incoming/GPUImageExposureFilter.o";  sourceTree = "<absolute>"; };
+		B000000000000000000000b4 /* GPUImageFalseColorFilter.o in Lib */ = {isa = PBXFileReference; lastKnownFileType = file; name = "GPUImageFalseColorFilter.o"; path = "/Users/lolsto/s3eGPUImage/incoming/GPUImageFalseColorFilter.o";  sourceTree = "<absolute>"; };
+		B000000000000000000000b6 /* GPUImageFastBlurFilter.o in Lib */ = {isa = PBXFileReference; lastKnownFileType = file; name = "GPUImageFastBlurFilter.o"; path = "/Users/lolsto/s3eGPUImage/incoming/GPUImageFastBlurFilter.o";  sourceTree = "<absolute>"; };
+		B000000000000000000000b8 /* GPUImageFilter.o in Lib */ = {isa = PBXFileReference; lastKnownFileType = file; name = "GPUImageFilter.o"; path = "/Users/lolsto/s3eGPUImage/incoming/GPUImageFilter.o";  sourceTree = "<absolute>"; };
+		B000000000000000000000ba /* GPUImageFilterGroup.o in Lib */ = {isa = PBXFileReference; lastKnownFileType = file; name = "GPUImageFilterGroup.o"; path = "/Users/lolsto/s3eGPUImage/incoming/GPUImageFilterGroup.o";  sourceTree = "<absolute>"; };
+		B000000000000000000000bc /* GPUImageFilterPipeline.o in Lib */ = {isa = PBXFileReference; lastKnownFileType = file; name = "GPUImageFilterPipeline.o"; path = "/Users/lolsto/s3eGPUImage/incoming/GPUImageFilterPipeline.o";  sourceTree = "<absolute>"; };
+		B000000000000000000000be /* GPUImageGammaFilter.o in Lib */ = {isa = PBXFileReference; lastKnownFileType = file; name = "GPUImageGammaFilter.o"; path = "/Users/lolsto/s3eGPUImage/incoming/GPUImageGammaFilter.o";  sourceTree = "<absolute>"; };
+		B000000000000000000000c0 /* GPUImageGaussianBlurFilter.o in Lib */ = {isa = PBXFileReference; lastKnownFileType = file; name = "GPUImageGaussianBlurFilter.o"; path = "/Users/lolsto/s3eGPUImage/incoming/GPUImageGaussianBlurFilter.o";  sourceTree = "<absolute>"; };
+		B000000000000000000000c2 /* GPUImageGaussianBlurPositionFilter.o in Lib */ = {isa = PBXFileReference; lastKnownFileType = file; name = "GPUImageGaussianBlurPositionFilter.o"; path = "/Users/lolsto/s3eGPUImage/incoming/GPUImageGaussianBlurPositionFilter.o";  sourceTree = "<absolute>"; };
+		B000000000000000000000c4 /* GPUImageGaussianSelectiveBlurFilter.o in Lib */ = {isa = PBXFileReference; lastKnownFileType = file; name = "GPUImageGaussianSelectiveBlurFilter.o"; path = "/Users/lolsto/s3eGPUImage/incoming/GPUImageGaussianSelectiveBlurFilter.o";  sourceTree = "<absolute>"; };
+		B000000000000000000000c6 /* GPUImageGlassSphereFilter.o in Lib */ = {isa = PBXFileReference; lastKnownFileType = file; name = "GPUImageGlassSphereFilter.o"; path = "/Users/lolsto/s3eGPUImage/incoming/GPUImageGlassSphereFilter.o";  sourceTree = "<absolute>"; };
+		B000000000000000000000c8 /* GPUImageGrayscaleFilter.o in Lib */ = {isa = PBXFileReference; lastKnownFileType = file; name = "GPUImageGrayscaleFilter.o"; path = "/Users/lolsto/s3eGPUImage/incoming/GPUImageGrayscaleFilter.o";  sourceTree = "<absolute>"; };
+		B000000000000000000000ca /* GPUImageHalftoneFilter.o in Lib */ = {isa = PBXFileReference; lastKnownFileType = file; name = "GPUImageHalftoneFilter.o"; path = "/Users/lolsto/s3eGPUImage/incoming/GPUImageHalftoneFilter.o";  sourceTree = "<absolute>"; };
+		B000000000000000000000cc /* GPUImageHardLightBlendFilter.o in Lib */ = {isa = PBXFileReference; lastKnownFileType = file; name = "GPUImageHardLightBlendFilter.o"; path = "/Users/lolsto/s3eGPUImage/incoming/GPUImageHardLightBlendFilter.o";  sourceTree = "<absolute>"; };
+		B000000000000000000000ce /* GPUImageHarrisCornerDetectionFilter.o in Lib */ = {isa = PBXFileReference; lastKnownFileType = file; name = "GPUImageHarrisCornerDetectionFilter.o"; path = "/Users/lolsto/s3eGPUImage/incoming/GPUImageHarrisCornerDetectionFilter.o";  sourceTree = "<absolute>"; };
+		B000000000000000000000d0 /* GPUImageHazeFilter.o in Lib */ = {isa = PBXFileReference; lastKnownFileType = file; name = "GPUImageHazeFilter.o"; path = "/Users/lolsto/s3eGPUImage/incoming/GPUImageHazeFilter.o";  sourceTree = "<absolute>"; };
+		B000000000000000000000d2 /* GPUImageHighPassFilter.o in Lib */ = {isa = PBXFileReference; lastKnownFileType = file; name = "GPUImageHighPassFilter.o"; path = "/Users/lolsto/s3eGPUImage/incoming/GPUImageHighPassFilter.o";  sourceTree = "<absolute>"; };
+		B000000000000000000000d4 /* GPUImageHighlightShadowFilter.o in Lib */ = {isa = PBXFileReference; lastKnownFileType = file; name = "GPUImageHighlightShadowFilter.o"; path = "/Users/lolsto/s3eGPUImage/incoming/GPUImageHighlightShadowFilter.o";  sourceTree = "<absolute>"; };
+		B000000000000000000000d6 /* GPUImageHistogramFilter.o in Lib */ = {isa = PBXFileReference; lastKnownFileType = file; name = "GPUImageHistogramFilter.o"; path = "/Users/lolsto/s3eGPUImage/incoming/GPUImageHistogramFilter.o";  sourceTree = "<absolute>"; };
+		B000000000000000000000d8 /* GPUImageHistogramGenerator.o in Lib */ = {isa = PBXFileReference; lastKnownFileType = file; name = "GPUImageHistogramGenerator.o"; path = "/Users/lolsto/s3eGPUImage/incoming/GPUImageHistogramGenerator.o";  sourceTree = "<absolute>"; };
+		B000000000000000000000da /* GPUImageHoughTransformLineDetector.o in Lib */ = {isa = PBXFileReference; lastKnownFileType = file; name = "GPUImageHoughTransformLineDetector.o"; path = "/Users/lolsto/s3eGPUImage/incoming/GPUImageHoughTransformLineDetector.o";  sourceTree = "<absolute>"; };
+		B000000000000000000000dc /* GPUImageHueBlendFilter.o in Lib */ = {isa = PBXFileReference; lastKnownFileType = file; name = "GPUImageHueBlendFilter.o"; path = "/Users/lolsto/s3eGPUImage/incoming/GPUImageHueBlendFilter.o";  sourceTree = "<absolute>"; };
+		B000000000000000000000de /* GPUImageHueFilter.o in Lib */ = {isa = PBXFileReference; lastKnownFileType = file; name = "GPUImageHueFilter.o"; path = "/Users/lolsto/s3eGPUImage/incoming/GPUImageHueFilter.o";  sourceTree = "<absolute>"; };
+		B000000000000000000000e0 /* GPUImageJFAVoronoiFilter.o in Lib */ = {isa = PBXFileReference; lastKnownFileType = file; name = "GPUImageJFAVoronoiFilter.o"; path = "/Users/lolsto/s3eGPUImage/incoming/GPUImageJFAVoronoiFilter.o";  sourceTree = "<absolute>"; };
+		B000000000000000000000e2 /* GPUImageKuwaharaFilter.o in Lib */ = {isa = PBXFileReference; lastKnownFileType = file; name = "GPUImageKuwaharaFilter.o"; path = "/Users/lolsto/s3eGPUImage/incoming/GPUImageKuwaharaFilter.o";  sourceTree = "<absolute>"; };
+		B000000000000000000000e4 /* GPUImageKuwaharaRadius3Filter.o in Lib */ = {isa = PBXFileReference; lastKnownFileType = file; name = "GPUImageKuwaharaRadius3Filter.o"; path = "/Users/lolsto/s3eGPUImage/incoming/GPUImageKuwaharaRadius3Filter.o";  sourceTree = "<absolute>"; };
+		B000000000000000000000e6 /* GPUImageLanczosResamplingFilter.o in Lib */ = {isa = PBXFileReference; lastKnownFileType = file; name = "GPUImageLanczosResamplingFilter.o"; path = "/Users/lolsto/s3eGPUImage/incoming/GPUImageLanczosResamplingFilter.o";  sourceTree = "<absolute>"; };
+		B000000000000000000000e8 /* GPUImageLaplacianFilter.o in Lib */ = {isa = PBXFileReference; lastKnownFileType = file; name = "GPUImageLaplacianFilter.o"; path = "/Users/lolsto/s3eGPUImage/incoming/GPUImageLaplacianFilter.o";  sourceTree = "<absolute>"; };
+		B000000000000000000000ea /* GPUImageLevelsFilter.o in Lib */ = {isa = PBXFileReference; lastKnownFileType = file; name = "GPUImageLevelsFilter.o"; path = "/Users/lolsto/s3eGPUImage/incoming/GPUImageLevelsFilter.o";  sourceTree = "<absolute>"; };
+		B000000000000000000000ec /* GPUImageLightenBlendFilter.o in Lib */ = {isa = PBXFileReference; lastKnownFileType = file; name = "GPUImageLightenBlendFilter.o"; path = "/Users/lolsto/s3eGPUImage/incoming/GPUImageLightenBlendFilter.o";  sourceTree = "<absolute>"; };
+		B000000000000000000000ee /* GPUImageLineGenerator.o in Lib */ = {isa = PBXFileReference; lastKnownFileType = file; name = "GPUImageLineGenerator.o"; path = "/Users/lolsto/s3eGPUImage/incoming/GPUImageLineGenerator.o";  sourceTree = "<absolute>"; };
+		B000000000000000000000f0 /* GPUImageLinearBurnBlendFilter.o in Lib */ = {isa = PBXFileReference; lastKnownFileType = file; name = "GPUImageLinearBurnBlendFilter.o"; path = "/Users/lolsto/s3eGPUImage/incoming/GPUImageLinearBurnBlendFilter.o";  sourceTree = "<absolute>"; };
+		B000000000000000000000f2 /* GPUImageLocalBinaryPatternFilter.o in Lib */ = {isa = PBXFileReference; lastKnownFileType = file; name = "GPUImageLocalBinaryPatternFilter.o"; path = "/Users/lolsto/s3eGPUImage/incoming/GPUImageLocalBinaryPatternFilter.o";  sourceTree = "<absolute>"; };
+		B000000000000000000000f4 /* GPUImageLookupFilter.o in Lib */ = {isa = PBXFileReference; lastKnownFileType = file; name = "GPUImageLookupFilter.o"; path = "/Users/lolsto/s3eGPUImage/incoming/GPUImageLookupFilter.o";  sourceTree = "<absolute>"; };
+		B000000000000000000000f6 /* GPUImageLowPassFilter.o in Lib */ = {isa = PBXFileReference; lastKnownFileType = file; name = "GPUImageLowPassFilter.o"; path = "/Users/lolsto/s3eGPUImage/incoming/GPUImageLowPassFilter.o";  sourceTree = "<absolute>"; };
+		B000000000000000000000f8 /* GPUImageLuminanceThresholdFilter.o in Lib */ = {isa = PBXFileReference; lastKnownFileType = file; name = "GPUImageLuminanceThresholdFilter.o"; path = "/Users/lolsto/s3eGPUImage/incoming/GPUImageLuminanceThresholdFilter.o";  sourceTree = "<absolute>"; };
+		B000000000000000000000fa /* GPUImageLuminosity.o in Lib */ = {isa = PBXFileReference; lastKnownFileType = file; name = "GPUImageLuminosity.o"; path = "/Users/lolsto/s3eGPUImage/incoming/GPUImageLuminosity.o";  sourceTree = "<absolute>"; };
+		B000000000000000000000fc /* GPUImageLuminosityBlendFilter.o in Lib */ = {isa = PBXFileReference; lastKnownFileType = file; name = "GPUImageLuminosityBlendFilter.o"; path = "/Users/lolsto/s3eGPUImage/incoming/GPUImageLuminosityBlendFilter.o";  sourceTree = "<absolute>"; };
+		B000000000000000000000fe /* GPUImageMaskFilter.o in Lib */ = {isa = PBXFileReference; lastKnownFileType = file; name = "GPUImageMaskFilter.o"; path = "/Users/lolsto/s3eGPUImage/incoming/GPUImageMaskFilter.o";  sourceTree = "<absolute>"; };
+		B00000000000000000000100 /* GPUImageMedianFilter.o in Lib */ = {isa = PBXFileReference; lastKnownFileType = file; name = "GPUImageMedianFilter.o"; path = "/Users/lolsto/s3eGPUImage/incoming/GPUImageMedianFilter.o";  sourceTree = "<absolute>"; };
+		B00000000000000000000102 /* GPUImageMissEtikateFilter.o in Lib */ = {isa = PBXFileReference; lastKnownFileType = file; name = "GPUImageMissEtikateFilter.o"; path = "/Users/lolsto/s3eGPUImage/incoming/GPUImageMissEtikateFilter.o";  sourceTree = "<absolute>"; };
+		B00000000000000000000104 /* GPUImageMonochromeFilter.o in Lib */ = {isa = PBXFileReference; lastKnownFileType = file; name = "GPUImageMonochromeFilter.o"; path = "/Users/lolsto/s3eGPUImage/incoming/GPUImageMonochromeFilter.o";  sourceTree = "<absolute>"; };
+		B00000000000000000000106 /* GPUImageMosaicFilter.o in Lib */ = {isa = PBXFileReference; lastKnownFileType = file; name = "GPUImageMosaicFilter.o"; path = "/Users/lolsto/s3eGPUImage/incoming/GPUImageMosaicFilter.o";  sourceTree = "<absolute>"; };
+		B00000000000000000000108 /* GPUImageMotionBlurFilter.o in Lib */ = {isa = PBXFileReference; lastKnownFileType = file; name = "GPUImageMotionBlurFilter.o"; path = "/Users/lolsto/s3eGPUImage/incoming/GPUImageMotionBlurFilter.o";  sourceTree = "<absolute>"; };
+		B0000000000000000000010a /* GPUImageMotionDetector.o in Lib */ = {isa = PBXFileReference; lastKnownFileType = file; name = "GPUImageMotionDetector.o"; path = "/Users/lolsto/s3eGPUImage/incoming/GPUImageMotionDetector.o";  sourceTree = "<absolute>"; };
+		B0000000000000000000010c /* GPUImageMovie.o in Lib */ = {isa = PBXFileReference; lastKnownFileType = file; name = "GPUImageMovie.o"; path = "/Users/lolsto/s3eGPUImage/incoming/GPUImageMovie.o";  sourceTree = "<absolute>"; };
+		B0000000000000000000010e /* GPUImageMovieWriter.o in Lib */ = {isa = PBXFileReference; lastKnownFileType = file; name = "GPUImageMovieWriter.o"; path = "/Users/lolsto/s3eGPUImage/incoming/GPUImageMovieWriter.o";  sourceTree = "<absolute>"; };
+		B00000000000000000000110 /* GPUImageMultiplyBlendFilter.o in Lib */ = {isa = PBXFileReference; lastKnownFileType = file; name = "GPUImageMultiplyBlendFilter.o"; path = "/Users/lolsto/s3eGPUImage/incoming/GPUImageMultiplyBlendFilter.o";  sourceTree = "<absolute>"; };
+		B00000000000000000000112 /* GPUImageNobleCornerDetectionFilter.o in Lib */ = {isa = PBXFileReference; lastKnownFileType = file; name = "GPUImageNobleCornerDetectionFilter.o"; path = "/Users/lolsto/s3eGPUImage/incoming/GPUImageNobleCornerDetectionFilter.o";  sourceTree = "<absolute>"; };
+		B00000000000000000000114 /* GPUImageNonMaximumSuppressionFilter.o in Lib */ = {isa = PBXFileReference; lastKnownFileType = file; name = "GPUImageNonMaximumSuppressionFilter.o"; path = "/Users/lolsto/s3eGPUImage/incoming/GPUImageNonMaximumSuppressionFilter.o";  sourceTree = "<absolute>"; };
+		B00000000000000000000116 /* GPUImageNormalBlendFilter.o in Lib */ = {isa = PBXFileReference; lastKnownFileType = file; name = "GPUImageNormalBlendFilter.o"; path = "/Users/lolsto/s3eGPUImage/incoming/GPUImageNormalBlendFilter.o";  sourceTree = "<absolute>"; };
+		B00000000000000000000118 /* GPUImageOpacityFilter.o in Lib */ = {isa = PBXFileReference; lastKnownFileType = file; name = "GPUImageOpacityFilter.o"; path = "/Users/lolsto/s3eGPUImage/incoming/GPUImageOpacityFilter.o";  sourceTree = "<absolute>"; };
+		B0000000000000000000011a /* GPUImageOpeningFilter.o in Lib */ = {isa = PBXFileReference; lastKnownFileType = file; name = "GPUImageOpeningFilter.o"; path = "/Users/lolsto/s3eGPUImage/incoming/GPUImageOpeningFilter.o";  sourceTree = "<absolute>"; };
+		B0000000000000000000011c /* GPUImageOutput.o in Lib */ = {isa = PBXFileReference; lastKnownFileType = file; name = "GPUImageOutput.o"; path = "/Users/lolsto/s3eGPUImage/incoming/GPUImageOutput.o";  sourceTree = "<absolute>"; };
+		B0000000000000000000011e /* GPUImageOverlayBlendFilter.o in Lib */ = {isa = PBXFileReference; lastKnownFileType = file; name = "GPUImageOverlayBlendFilter.o"; path = "/Users/lolsto/s3eGPUImage/incoming/GPUImageOverlayBlendFilter.o";  sourceTree = "<absolute>"; };
+		B00000000000000000000120 /* GPUImageParallelCoordinateLineTransformFilter.o in Lib */ = {isa = PBXFileReference; lastKnownFileType = file; name = "GPUImageParallelCoordinateLineTransformFilter.o"; path = "/Users/lolsto/s3eGPUImage/incoming/GPUImageParallelCoordinateLineTransformFilter.o";  sourceTree = "<absolute>"; };
+		B00000000000000000000122 /* GPUImagePerlinNoiseFilter.o in Lib */ = {isa = PBXFileReference; lastKnownFileType = file; name = "GPUImagePerlinNoiseFilter.o"; path = "/Users/lolsto/s3eGPUImage/incoming/GPUImagePerlinNoiseFilter.o";  sourceTree = "<absolute>"; };
+		B00000000000000000000124 /* GPUImagePicture.o in Lib */ = {isa = PBXFileReference; lastKnownFileType = file; name = "GPUImagePicture.o"; path = "/Users/lolsto/s3eGPUImage/incoming/GPUImagePicture.o";  sourceTree = "<absolute>"; };
+		B00000000000000000000126 /* GPUImagePinchDistortionFilter.o in Lib */ = {isa = PBXFileReference; lastKnownFileType = file; name = "GPUImagePinchDistortionFilter.o"; path = "/Users/lolsto/s3eGPUImage/incoming/GPUImagePinchDistortionFilter.o";  sourceTree = "<absolute>"; };
+		B00000000000000000000128 /* GPUImagePixellateFilter.o in Lib */ = {isa = PBXFileReference; lastKnownFileType = file; name = "GPUImagePixellateFilter.o"; path = "/Users/lolsto/s3eGPUImage/incoming/GPUImagePixellateFilter.o";  sourceTree = "<absolute>"; };
+		B0000000000000000000012a /* GPUImagePixellatePositionFilter.o in Lib */ = {isa = PBXFileReference; lastKnownFileType = file; name = "GPUImagePixellatePositionFilter.o"; path = "/Users/lolsto/s3eGPUImage/incoming/GPUImagePixellatePositionFilter.o";  sourceTree = "<absolute>"; };
+		B0000000000000000000012c /* GPUImagePoissonBlendFilter.o in Lib */ = {isa = PBXFileReference; lastKnownFileType = file; name = "GPUImagePoissonBlendFilter.o"; path = "/Users/lolsto/s3eGPUImage/incoming/GPUImagePoissonBlendFilter.o";  sourceTree = "<absolute>"; };
+		B0000000000000000000012e /* GPUImagePolarPixellateFilter.o in Lib */ = {isa = PBXFileReference; lastKnownFileType = file; name = "GPUImagePolarPixellateFilter.o"; path = "/Users/lolsto/s3eGPUImage/incoming/GPUImagePolarPixellateFilter.o";  sourceTree = "<absolute>"; };
+		B00000000000000000000130 /* GPUImagePolkaDotFilter.o in Lib */ = {isa = PBXFileReference; lastKnownFileType = file; name = "GPUImagePolkaDotFilter.o"; path = "/Users/lolsto/s3eGPUImage/incoming/GPUImagePolkaDotFilter.o";  sourceTree = "<absolute>"; };
+		B00000000000000000000132 /* GPUImagePosterizeFilter.o in Lib */ = {isa = PBXFileReference; lastKnownFileType = file; name = "GPUImagePosterizeFilter.o"; path = "/Users/lolsto/s3eGPUImage/incoming/GPUImagePosterizeFilter.o";  sourceTree = "<absolute>"; };
+		B00000000000000000000134 /* GPUImagePrewittEdgeDetectionFilter.o in Lib */ = {isa = PBXFileReference; lastKnownFileType = file; name = "GPUImagePrewittEdgeDetectionFilter.o"; path = "/Users/lolsto/s3eGPUImage/incoming/GPUImagePrewittEdgeDetectionFilter.o";  sourceTree = "<absolute>"; };
+		B00000000000000000000136 /* GPUImageRGBClosingFilter.o in Lib */ = {isa = PBXFileReference; lastKnownFileType = file; name = "GPUImageRGBClosingFilter.o"; path = "/Users/lolsto/s3eGPUImage/incoming/GPUImageRGBClosingFilter.o";  sourceTree = "<absolute>"; };
+		B00000000000000000000138 /* GPUImageRGBDilationFilter.o in Lib */ = {isa = PBXFileReference; lastKnownFileType = file; name = "GPUImageRGBDilationFilter.o"; path = "/Users/lolsto/s3eGPUImage/incoming/GPUImageRGBDilationFilter.o";  sourceTree = "<absolute>"; };
+		B0000000000000000000013a /* GPUImageRGBErosionFilter.o in Lib */ = {isa = PBXFileReference; lastKnownFileType = file; name = "GPUImageRGBErosionFilter.o"; path = "/Users/lolsto/s3eGPUImage/incoming/GPUImageRGBErosionFilter.o";  sourceTree = "<absolute>"; };
+		B0000000000000000000013c /* GPUImageRGBFilter.o in Lib */ = {isa = PBXFileReference; lastKnownFileType = file; name = "GPUImageRGBFilter.o"; path = "/Users/lolsto/s3eGPUImage/incoming/GPUImageRGBFilter.o";  sourceTree = "<absolute>"; };
+		B0000000000000000000013e /* GPUImageRGBOpeningFilter.o in Lib */ = {isa = PBXFileReference; lastKnownFileType = file; name = "GPUImageRGBOpeningFilter.o"; path = "/Users/lolsto/s3eGPUImage/incoming/GPUImageRGBOpeningFilter.o";  sourceTree = "<absolute>"; };
+		B00000000000000000000140 /* GPUImageRawDataInput.o in Lib */ = {isa = PBXFileReference; lastKnownFileType = file; name = "GPUImageRawDataInput.o"; path = "/Users/lolsto/s3eGPUImage/incoming/GPUImageRawDataInput.o";  sourceTree = "<absolute>"; };
+		B00000000000000000000142 /* GPUImageRawDataOutput.o in Lib */ = {isa = PBXFileReference; lastKnownFileType = file; name = "GPUImageRawDataOutput.o"; path = "/Users/lolsto/s3eGPUImage/incoming/GPUImageRawDataOutput.o";  sourceTree = "<absolute>"; };
+		B00000000000000000000144 /* GPUImageSaturationBlendFilter.o in Lib */ = {isa = PBXFileReference; lastKnownFileType = file; name = "GPUImageSaturationBlendFilter.o"; path = "/Users/lolsto/s3eGPUImage/incoming/GPUImageSaturationBlendFilter.o";  sourceTree = "<absolute>"; };
+		B00000000000000000000146 /* GPUImageSaturationFilter.o in Lib */ = {isa = PBXFileReference; lastKnownFileType = file; name = "GPUImageSaturationFilter.o"; path = "/Users/lolsto/s3eGPUImage/incoming/GPUImageSaturationFilter.o";  sourceTree = "<absolute>"; };
+		B00000000000000000000148 /* GPUImageScreenBlendFilter.o in Lib */ = {isa = PBXFileReference; lastKnownFileType = file; name = "GPUImageScreenBlendFilter.o"; path = "/Users/lolsto/s3eGPUImage/incoming/GPUImageScreenBlendFilter.o";  sourceTree = "<absolute>"; };
+		B0000000000000000000014a /* GPUImageSepiaFilter.o in Lib */ = {isa = PBXFileReference; lastKnownFileType = file; name = "GPUImageSepiaFilter.o"; path = "/Users/lolsto/s3eGPUImage/incoming/GPUImageSepiaFilter.o";  sourceTree = "<absolute>"; };
+		B0000000000000000000014c /* GPUImageSharpenFilter.o in Lib */ = {isa = PBXFileReference; lastKnownFileType = file; name = "GPUImageSharpenFilter.o"; path = "/Users/lolsto/s3eGPUImage/incoming/GPUImageSharpenFilter.o";  sourceTree = "<absolute>"; };
+		B0000000000000000000014e /* GPUImageShiTomasiFeatureDetectionFilter.o in Lib */ = {isa = PBXFileReference; lastKnownFileType = file; name = "GPUImageShiTomasiFeatureDetectionFilter.o"; path = "/Users/lolsto/s3eGPUImage/incoming/GPUImageShiTomasiFeatureDetectionFilter.o";  sourceTree = "<absolute>"; };
+		B00000000000000000000150 /* GPUImageSingleComponentFastBlurFilter.o in Lib */ = {isa = PBXFileReference; lastKnownFileType = file; name = "GPUImageSingleComponentFastBlurFilter.o"; path = "/Users/lolsto/s3eGPUImage/incoming/GPUImageSingleComponentFastBlurFilter.o";  sourceTree = "<absolute>"; };
+		B00000000000000000000152 /* GPUImageSingleComponentGaussianBlurFilter.o in Lib */ = {isa = PBXFileReference; lastKnownFileType = file; name = "GPUImageSingleComponentGaussianBlurFilter.o"; path = "/Users/lolsto/s3eGPUImage/incoming/GPUImageSingleComponentGaussianBlurFilter.o";  sourceTree = "<absolute>"; };
+		B00000000000000000000154 /* GPUImageSketchFilter.o in Lib */ = {isa = PBXFileReference; lastKnownFileType = file; name = "GPUImageSketchFilter.o"; path = "/Users/lolsto/s3eGPUImage/incoming/GPUImageSketchFilter.o";  sourceTree = "<absolute>"; };
+		B00000000000000000000156 /* GPUImageSmoothToonFilter.o in Lib */ = {isa = PBXFileReference; lastKnownFileType = file; name = "GPUImageSmoothToonFilter.o"; path = "/Users/lolsto/s3eGPUImage/incoming/GPUImageSmoothToonFilter.o";  sourceTree = "<absolute>"; };
+		B00000000000000000000158 /* GPUImageSobelEdgeDetectionFilter.o in Lib */ = {isa = PBXFileReference; lastKnownFileType = file; name = "GPUImageSobelEdgeDetectionFilter.o"; path = "/Users/lolsto/s3eGPUImage/incoming/GPUImageSobelEdgeDetectionFilter.o";  sourceTree = "<absolute>"; };
+		B0000000000000000000015a /* GPUImageSoftEleganceFilter.o in Lib */ = {isa = PBXFileReference; lastKnownFileType = file; name = "GPUImageSoftEleganceFilter.o"; path = "/Users/lolsto/s3eGPUImage/incoming/GPUImageSoftEleganceFilter.o";  sourceTree = "<absolute>"; };
+		B0000000000000000000015c /* GPUImageSoftLightBlendFilter.o in Lib */ = {isa = PBXFileReference; lastKnownFileType = file; name = "GPUImageSoftLightBlendFilter.o"; path = "/Users/lolsto/s3eGPUImage/incoming/GPUImageSoftLightBlendFilter.o";  sourceTree = "<absolute>"; };
+		B0000000000000000000015e /* GPUImageSolidColorGenerator.o in Lib */ = {isa = PBXFileReference; lastKnownFileType = file; name = "GPUImageSolidColorGenerator.o"; path = "/Users/lolsto/s3eGPUImage/incoming/GPUImageSolidColorGenerator.o";  sourceTree = "<absolute>"; };
+		B00000000000000000000160 /* GPUImageSourceOverBlendFilter.o in Lib */ = {isa = PBXFileReference; lastKnownFileType = file; name = "GPUImageSourceOverBlendFilter.o"; path = "/Users/lolsto/s3eGPUImage/incoming/GPUImageSourceOverBlendFilter.o";  sourceTree = "<absolute>"; };
+		B00000000000000000000162 /* GPUImageSphereRefractionFilter.o in Lib */ = {isa = PBXFileReference; lastKnownFileType = file; name = "GPUImageSphereRefractionFilter.o"; path = "/Users/lolsto/s3eGPUImage/incoming/GPUImageSphereRefractionFilter.o";  sourceTree = "<absolute>"; };
+		B00000000000000000000164 /* GPUImageStillCamera.o in Lib */ = {isa = PBXFileReference; lastKnownFileType = file; name = "GPUImageStillCamera.o"; path = "/Users/lolsto/s3eGPUImage/incoming/GPUImageStillCamera.o";  sourceTree = "<absolute>"; };
+		B00000000000000000000166 /* GPUImageStretchDistortionFilter.o in Lib */ = {isa = PBXFileReference; lastKnownFileType = file; name = "GPUImageStretchDistortionFilter.o"; path = "/Users/lolsto/s3eGPUImage/incoming/GPUImageStretchDistortionFilter.o";  sourceTree = "<absolute>"; };
+		B00000000000000000000168 /* GPUImageSubtractBlendFilter.o in Lib */ = {isa = PBXFileReference; lastKnownFileType = file; name = "GPUImageSubtractBlendFilter.o"; path = "/Users/lolsto/s3eGPUImage/incoming/GPUImageSubtractBlendFilter.o";  sourceTree = "<absolute>"; };
+		B0000000000000000000016a /* GPUImageSwirlFilter.o in Lib */ = {isa = PBXFileReference; lastKnownFileType = file; name = "GPUImageSwirlFilter.o"; path = "/Users/lolsto/s3eGPUImage/incoming/GPUImageSwirlFilter.o";  sourceTree = "<absolute>"; };
+		B0000000000000000000016c /* GPUImageTextureInput.o in Lib */ = {isa = PBXFileReference; lastKnownFileType = file; name = "GPUImageTextureInput.o"; path = "/Users/lolsto/s3eGPUImage/incoming/GPUImageTextureInput.o";  sourceTree = "<absolute>"; };
+		B0000000000000000000016e /* GPUImageTextureOutput.o in Lib */ = {isa = PBXFileReference; lastKnownFileType = file; name = "GPUImageTextureOutput.o"; path = "/Users/lolsto/s3eGPUImage/incoming/GPUImageTextureOutput.o";  sourceTree = "<absolute>"; };
+		B00000000000000000000170 /* GPUImageThreeInputFilter.o in Lib */ = {isa = PBXFileReference; lastKnownFileType = file; name = "GPUImageThreeInputFilter.o"; path = "/Users/lolsto/s3eGPUImage/incoming/GPUImageThreeInputFilter.o";  sourceTree = "<absolute>"; };
+		B00000000000000000000172 /* GPUImageThresholdEdgeDetectionFilter.o in Lib */ = {isa = PBXFileReference; lastKnownFileType = file; name = "GPUImageThresholdEdgeDetectionFilter.o"; path = "/Users/lolsto/s3eGPUImage/incoming/GPUImageThresholdEdgeDetectionFilter.o";  sourceTree = "<absolute>"; };
+		B00000000000000000000174 /* GPUImageThresholdSketchFilter.o in Lib */ = {isa = PBXFileReference; lastKnownFileType = file; name = "GPUImageThresholdSketchFilter.o"; path = "/Users/lolsto/s3eGPUImage/incoming/GPUImageThresholdSketchFilter.o";  sourceTree = "<absolute>"; };
+		B00000000000000000000176 /* GPUImageThresholdedNonMaximumSuppressionFilter.o in Lib */ = {isa = PBXFileReference; lastKnownFileType = file; name = "GPUImageThresholdedNonMaximumSuppressionFilter.o"; path = "/Users/lolsto/s3eGPUImage/incoming/GPUImageThresholdedNonMaximumSuppressionFilter.o";  sourceTree = "<absolute>"; };
+		B00000000000000000000178 /* GPUImageTiltShiftFilter.o in Lib */ = {isa = PBXFileReference; lastKnownFileType = file; name = "GPUImageTiltShiftFilter.o"; path = "/Users/lolsto/s3eGPUImage/incoming/GPUImageTiltShiftFilter.o";  sourceTree = "<absolute>"; };
+		B0000000000000000000017a /* GPUImageToneCurveFilter.o in Lib */ = {isa = PBXFileReference; lastKnownFileType = file; name = "GPUImageToneCurveFilter.o"; path = "/Users/lolsto/s3eGPUImage/incoming/GPUImageToneCurveFilter.o";  sourceTree = "<absolute>"; };
+		B0000000000000000000017c /* GPUImageToonFilter.o in Lib */ = {isa = PBXFileReference; lastKnownFileType = file; name = "GPUImageToonFilter.o"; path = "/Users/lolsto/s3eGPUImage/incoming/GPUImageToonFilter.o";  sourceTree = "<absolute>"; };
+		B0000000000000000000017e /* GPUImageTransformFilter.o in Lib */ = {isa = PBXFileReference; lastKnownFileType = file; name = "GPUImageTransformFilter.o"; path = "/Users/lolsto/s3eGPUImage/incoming/GPUImageTransformFilter.o";  sourceTree = "<absolute>"; };
+		B00000000000000000000180 /* GPUImageTwoInputCrossTextureSamplingFilter.o in Lib */ = {isa = PBXFileReference; lastKnownFileType = file; name = "GPUImageTwoInputCrossTextureSamplingFilter.o"; path = "/Users/lolsto/s3eGPUImage/incoming/GPUImageTwoInputCrossTextureSamplingFilter.o";  sourceTree = "<absolute>"; };
+		B00000000000000000000182 /* GPUImageTwoInputFilter.o in Lib */ = {isa = PBXFileReference; lastKnownFileType = file; name = "GPUImageTwoInputFilter.o"; path = "/Users/lolsto/s3eGPUImage/incoming/GPUImageTwoInputFilter.o";  sourceTree = "<absolute>"; };
+		B00000000000000000000184 /* GPUImageTwoPassFilter.o in Lib */ = {isa = PBXFileReference; lastKnownFileType = file; name = "GPUImageTwoPassFilter.o"; path = "/Users/lolsto/s3eGPUImage/incoming/GPUImageTwoPassFilter.o";  sourceTree = "<absolute>"; };
+		B00000000000000000000186 /* GPUImageTwoPassTextureSamplingFilter.o in Lib */ = {isa = PBXFileReference; lastKnownFileType = file; name = "GPUImageTwoPassTextureSamplingFilter.o"; path = "/Users/lolsto/s3eGPUImage/incoming/GPUImageTwoPassTextureSamplingFilter.o";  sourceTree = "<absolute>"; };
+		B00000000000000000000188 /* GPUImageUIElement.o in Lib */ = {isa = PBXFileReference; lastKnownFileType = file; name = "GPUImageUIElement.o"; path = "/Users/lolsto/s3eGPUImage/incoming/GPUImageUIElement.o";  sourceTree = "<absolute>"; };
+		B0000000000000000000018a /* GPUImageUnsharpMaskFilter.o in Lib */ = {isa = PBXFileReference; lastKnownFileType = file; name = "GPUImageUnsharpMaskFilter.o"; path = "/Users/lolsto/s3eGPUImage/incoming/GPUImageUnsharpMaskFilter.o";  sourceTree = "<absolute>"; };
+		B0000000000000000000018c /* GPUImageVideoCamera.o in Lib */ = {isa = PBXFileReference; lastKnownFileType = file; name = "GPUImageVideoCamera.o"; path = "/Users/lolsto/s3eGPUImage/incoming/GPUImageVideoCamera.o";  sourceTree = "<absolute>"; };
+		B0000000000000000000018e /* GPUImageView.o in Lib */ = {isa = PBXFileReference; lastKnownFileType = file; name = "GPUImageView.o"; path = "/Users/lolsto/s3eGPUImage/incoming/GPUImageView.o";  sourceTree = "<absolute>"; };
+		B00000000000000000000190 /* GPUImageVignetteFilter.o in Lib */ = {isa = PBXFileReference; lastKnownFileType = file; name = "GPUImageVignetteFilter.o"; path = "/Users/lolsto/s3eGPUImage/incoming/GPUImageVignetteFilter.o";  sourceTree = "<absolute>"; };
+		B00000000000000000000192 /* GPUImageVoronoiConsumerFilter.o in Lib */ = {isa = PBXFileReference; lastKnownFileType = file; name = "GPUImageVoronoiConsumerFilter.o"; path = "/Users/lolsto/s3eGPUImage/incoming/GPUImageVoronoiConsumerFilter.o";  sourceTree = "<absolute>"; };
+		B00000000000000000000194 /* GPUImageWeakPixelInclusionFilter.o in Lib */ = {isa = PBXFileReference; lastKnownFileType = file; name = "GPUImageWeakPixelInclusionFilter.o"; path = "/Users/lolsto/s3eGPUImage/incoming/GPUImageWeakPixelInclusionFilter.o";  sourceTree = "<absolute>"; };
+		B00000000000000000000196 /* GPUImageWhiteBalanceFilter.o in Lib */ = {isa = PBXFileReference; lastKnownFileType = file; name = "GPUImageWhiteBalanceFilter.o"; path = "/Users/lolsto/s3eGPUImage/incoming/GPUImageWhiteBalanceFilter.o";  sourceTree = "<absolute>"; };
+		B00000000000000000000198 /* GPUImageXYDerivativeFilter.o in Lib */ = {isa = PBXFileReference; lastKnownFileType = file; name = "GPUImageXYDerivativeFilter.o"; path = "/Users/lolsto/s3eGPUImage/incoming/GPUImageXYDerivativeFilter.o";  sourceTree = "<absolute>"; };
+		B0000000000000000000019a /* GPUImageZoomBlurFilter.o in Lib */ = {isa = PBXFileReference; lastKnownFileType = file; name = "GPUImageZoomBlurFilter.o"; path = "/Users/lolsto/s3eGPUImage/incoming/GPUImageZoomBlurFilter.o";  sourceTree = "<absolute>"; };
+		B0000000000000000000019c /* GPUimageDirectionalSobelEdgeDetectionFilter.o in Lib */ = {isa = PBXFileReference; lastKnownFileType = file; name = "GPUimageDirectionalSobelEdgeDetectionFilter.o"; path = "/Users/lolsto/s3eGPUImage/incoming/GPUimageDirectionalSobelEdgeDetectionFilter.o";  sourceTree = "<absolute>"; };
+		B0000000000000000000019e /* WrapAWrapper.o in Lib */ = {isa = PBXFileReference; lastKnownFileType = file; name = "WrapAWrapper.o"; path = "/Users/lolsto/s3eGPUImage/incoming/WrapAWrapper.o";  sourceTree = "<absolute>"; };
+		B000000000000000000001a0 /* s3eGpuImageWrapper.o in Lib */ = {isa = PBXFileReference; lastKnownFileType = file; name = "s3eGpuImageWrapper.o"; path = "/Users/lolsto/s3eGPUImage/incoming/s3eGpuImageWrapper.o";  sourceTree = "<absolute>"; };
+		B000000000000000000001a2 /* s3eGPUImage.defines.txt in docs */ = {isa = PBXFileReference; lastKnownFileType = text; name = "s3eGPUImage.defines.txt"; path = "/Users/lolsto/s3eGPUImage/interface/s3eGPUImage.defines.txt";  sourceTree = "<absolute>"; };
+		B000000000000000000001a5 /* s3eGPUImage.s4e in s3eGPUImage */ = {isa = PBXFileReference; lastKnownFileType = file; name = "s3eGPUImage.s4e"; path = "/Users/lolsto/s3eGPUImage/s3eGPUImage.s4e";  sourceTree = "<absolute>"; };
+		B000000000000000000001a7 /* s3eGPUImage_build.mkf in s3eGPUImage */ = {isa = PBXFileReference; lastKnownFileType = file; name = "s3eGPUImage_build.mkf"; path = "/Users/lolsto/s3eGPUImage/s3eGPUImage_build.mkf";  sourceTree = "<absolute>"; };
+		B000000000000000000001a9 /* s3eGPUImage_iphone.mkb in root */ = {isa = PBXFileReference; lastKnownFileType = file; name = "s3eGPUImage_iphone.mkb"; path = "/Users/lolsto/s3eGPUImage/s3eGPUImage_iphone.mkb";  sourceTree = "<absolute>"; };
+		B000000000000000000001ab /* s3eGPUImage.cpp in source */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "s3eGPUImage.cpp"; path = "../source/generic/s3eGPUImage.cpp";  sourceTree = SOURCE_ROOT; };
+		B000000000000000000001ae /* s3eGPUImage_register.cpp in source */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "s3eGPUImage_register.cpp"; path = "../source/generic/s3eGPUImage_register.cpp";  sourceTree = SOURCE_ROOT; };
+		B000000000000000000001b0 /* s3eGPUImage_autodefs.h in h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "s3eGPUImage_autodefs.h"; path = "/Users/lolsto/s3eGPUImage/source/h/s3eGPUImage_autodefs.h";  sourceTree = "<absolute>"; };
+		B000000000000000000001b3 /* s3eGPUImage_internal.h in h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "s3eGPUImage_internal.h"; path = "/Users/lolsto/s3eGPUImage/source/h/s3eGPUImage_internal.h";  sourceTree = "<absolute>"; };
+		B000000000000000000001b5 /* s3eGPUImage_platform.mm in source */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objcpp; name = "s3eGPUImage_platform.mm"; path = "../source/iphone/s3eGPUImage_platform.mm";  sourceTree = SOURCE_ROOT; };
+
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		frameworksobject /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B0000000000000000000000a /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ref_s3eGPUImage_iphone_a /* s3eGPUImage_iphone */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A00000000000000000000007 /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				B00000000000000000000008,
+				B00000000000000000000009,
+				B0000000000000000000000a,
+				C0000000000000000000000d,
+				C00000000000000000000011,
+				B000000000000000000001a9,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+
+		C0000000000000000000000d /* Extensions */ =  {
+			isa = PBXGroup;
+			children = (
+				C0000000000000000000000e,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+
+		C00000000000000000000064 /* Lib */ =  {
+			isa = PBXGroup;
+			children = (
+				B00000000000000000000063,
+				B00000000000000000000066,
+				B00000000000000000000068,
+				B0000000000000000000006a,
+				B0000000000000000000006c,
+				B0000000000000000000006e,
+				B00000000000000000000070,
+				B00000000000000000000072,
+				B00000000000000000000074,
+				B00000000000000000000076,
+				B00000000000000000000078,
+				B0000000000000000000007a,
+				B0000000000000000000007c,
+				B0000000000000000000007e,
+				B00000000000000000000080,
+				B00000000000000000000082,
+				B00000000000000000000084,
+				B00000000000000000000086,
+				B00000000000000000000088,
+				B0000000000000000000008a,
+				B0000000000000000000008c,
+				B0000000000000000000008e,
+				B00000000000000000000090,
+				B00000000000000000000092,
+				B00000000000000000000094,
+				B00000000000000000000096,
+				B00000000000000000000098,
+				B0000000000000000000009a,
+				B0000000000000000000009c,
+				B0000000000000000000009e,
+				B000000000000000000000a0,
+				B000000000000000000000a2,
+				B000000000000000000000a4,
+				B000000000000000000000a6,
+				B000000000000000000000a8,
+				B000000000000000000000aa,
+				B000000000000000000000ac,
+				B000000000000000000000ae,
+				B000000000000000000000b0,
+				B000000000000000000000b2,
+				B000000000000000000000b4,
+				B000000000000000000000b6,
+				B000000000000000000000b8,
+				B000000000000000000000ba,
+				B000000000000000000000bc,
+				B000000000000000000000be,
+				B000000000000000000000c0,
+				B000000000000000000000c2,
+				B000000000000000000000c4,
+				B000000000000000000000c6,
+				B000000000000000000000c8,
+				B000000000000000000000ca,
+				B000000000000000000000cc,
+				B000000000000000000000ce,
+				B000000000000000000000d0,
+				B000000000000000000000d2,
+				B000000000000000000000d4,
+				B000000000000000000000d6,
+				B000000000000000000000d8,
+				B000000000000000000000da,
+				B000000000000000000000dc,
+				B000000000000000000000de,
+				B000000000000000000000e0,
+				B000000000000000000000e2,
+				B000000000000000000000e4,
+				B000000000000000000000e6,
+				B000000000000000000000e8,
+				B000000000000000000000ea,
+				B000000000000000000000ec,
+				B000000000000000000000ee,
+				B000000000000000000000f0,
+				B000000000000000000000f2,
+				B000000000000000000000f4,
+				B000000000000000000000f6,
+				B000000000000000000000f8,
+				B000000000000000000000fa,
+				B000000000000000000000fc,
+				B000000000000000000000fe,
+				B00000000000000000000100,
+				B00000000000000000000102,
+				B00000000000000000000104,
+				B00000000000000000000106,
+				B00000000000000000000108,
+				B0000000000000000000010a,
+				B0000000000000000000010c,
+				B0000000000000000000010e,
+				B00000000000000000000110,
+				B00000000000000000000112,
+				B00000000000000000000114,
+				B00000000000000000000116,
+				B00000000000000000000118,
+				B0000000000000000000011a,
+				B0000000000000000000011c,
+				B0000000000000000000011e,
+				B00000000000000000000120,
+				B00000000000000000000122,
+				B00000000000000000000124,
+				B00000000000000000000126,
+				B00000000000000000000128,
+				B0000000000000000000012a,
+				B0000000000000000000012c,
+				B0000000000000000000012e,
+				B00000000000000000000130,
+				B00000000000000000000132,
+				B00000000000000000000134,
+				B00000000000000000000136,
+				B00000000000000000000138,
+				B0000000000000000000013a,
+				B0000000000000000000013c,
+				B0000000000000000000013e,
+				B00000000000000000000140,
+				B00000000000000000000142,
+				B00000000000000000000144,
+				B00000000000000000000146,
+				B00000000000000000000148,
+				B0000000000000000000014a,
+				B0000000000000000000014c,
+				B0000000000000000000014e,
+				B00000000000000000000150,
+				B00000000000000000000152,
+				B00000000000000000000154,
+				B00000000000000000000156,
+				B00000000000000000000158,
+				B0000000000000000000015a,
+				B0000000000000000000015c,
+				B0000000000000000000015e,
+				B00000000000000000000160,
+				B00000000000000000000162,
+				B00000000000000000000164,
+				B00000000000000000000166,
+				B00000000000000000000168,
+				B0000000000000000000016a,
+				B0000000000000000000016c,
+				B0000000000000000000016e,
+				B00000000000000000000170,
+				B00000000000000000000172,
+				B00000000000000000000174,
+				B00000000000000000000176,
+				B00000000000000000000178,
+				B0000000000000000000017a,
+				B0000000000000000000017c,
+				B0000000000000000000017e,
+				B00000000000000000000180,
+				B00000000000000000000182,
+				B00000000000000000000184,
+				B00000000000000000000186,
+				B00000000000000000000188,
+				B0000000000000000000018a,
+				B0000000000000000000018c,
+				B0000000000000000000018e,
+				B00000000000000000000190,
+				B00000000000000000000192,
+				B00000000000000000000194,
+				B00000000000000000000196,
+				B00000000000000000000198,
+				B0000000000000000000019a,
+				B0000000000000000000019c,
+				B0000000000000000000019e,
+				B000000000000000000001a0,
+			);
+			name = Lib;
+			sourceTree = "<group>";
+		};
+
+		C0000000000000000000001f /* S3E API */ =  {
+			isa = PBXGroup;
+			children = (
+				B0000000000000000000001e,
+				B00000000000000000000021,
+				B00000000000000000000023,
+				B00000000000000000000025,
+				B00000000000000000000027,
+				B00000000000000000000029,
+				B0000000000000000000002b,
+				B0000000000000000000002d,
+				B0000000000000000000002f,
+				B00000000000000000000031,
+				B00000000000000000000033,
+				B00000000000000000000035,
+				B00000000000000000000037,
+				B00000000000000000000039,
+				B0000000000000000000003b,
+				B0000000000000000000003d,
+				B0000000000000000000003f,
+				B00000000000000000000041,
+				B00000000000000000000043,
+				B00000000000000000000045,
+				B00000000000000000000047,
+				B00000000000000000000049,
+				B0000000000000000000004b,
+				B0000000000000000000004d,
+				B0000000000000000000004f,
+				B00000000000000000000051,
+				B00000000000000000000053,
+				B00000000000000000000055,
+				B00000000000000000000057,
+				B00000000000000000000059,
+				B0000000000000000000005b,
+				B0000000000000000000005d,
+				B0000000000000000000005f,
+				B00000000000000000000061,
+			);
+			name = "S3E API";
+			sourceTree = "<group>";
+		};
+
+		C000000000000000000001a3 /* docs */ =  {
+			isa = PBXGroup;
+			children = (
+				B000000000000000000001a2,
+			);
+			name = docs;
+			sourceTree = "<group>";
+		};
+
+		C00000000000000000000011 /* edk */ =  {
+			isa = PBXGroup;
+			children = (
+				B00000000000000000000010,
+				C00000000000000000000014,
+				C0000000000000000000001f,
+			);
+			name = edk;
+			sourceTree = "<group>";
+		};
+
+		C00000000000000000000014 /* h */ =  {
+			isa = PBXGroup;
+			children = (
+				B00000000000000000000013,
+				B00000000000000000000016,
+				B00000000000000000000018,
+				B0000000000000000000001a,
+				B0000000000000000000001c,
+			);
+			name = h;
+			sourceTree = "<group>";
+		};
+
+		C000000000000000000001b1 /* h */ =  {
+			isa = PBXGroup;
+			children = (
+				B000000000000000000001b0,
+				B000000000000000000001b3,
+			);
+			name = h;
+			sourceTree = "<group>";
+		};
+
+		C0000000000000000000000e /* s3eGPUImage */ =  {
+			isa = PBXGroup;
+			children = (
+				B0000000000000000000000c,
+				C00000000000000000000064,
+				C000000000000000000001a3,
+				B000000000000000000001a5,
+				B000000000000000000001a7,
+				C000000000000000000001ac,
+				C000000000000000000001b1,
+			);
+			name = "s3eGPUImage";
+			sourceTree = "<group>";
+		};
+
+		C000000000000000000001ac /* source */ =  {
+			isa = PBXGroup;
+			children = (
+				B000000000000000000001ab,
+				B000000000000000000001ae,
+				B000000000000000000001b5,
+			);
+			name = source;
+			sourceTree = "<group>";
+		};
+		B00000000000000000000008 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		B00000000000000000000009 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+
+/* Begin PBXShellScriptBuildPhase section */
+
+		shell_script_object0 /* Copy Target to Final Destination */ = {
+			isa = PBXShellScriptBuildPhase;
+            name = "Copy Target to Final Destination";
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			showEnvVarsInLog = 0;
+			shellScript = "
+mkdir -p /Users/lolsto/s3eGPUImage/lib/iphone
+
+set -e
+set -x
+
+if [ $CONFIGURATION = 'Release' ]; then
+    TARGET=/Users/lolsto/s3eGPUImage/lib/iphone/libs3eGPUImage.a
+else
+    TARGET=/Users/lolsto/s3eGPUImage/lib/iphone/libs3eGPUImage_d.a
+fi
+
+cp $BUILT_PRODUCTS_DIR/$EXECUTABLE_PATH $TARGET
+";
+		};
+
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+
+		69000000000000000000000A /* s3eGPUImage_iphone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = buildconfiglisttarget /* Build configuration list for PBXNativeTarget "s3eGPUImage_iphone" */;
+			buildPhases = (
+				resourcesobject /* Resources */,
+				sourcesobject /* Sources */,
+				frameworksobject /* Frameworks */,
+				shell_script_object0 /* Copy Target to Final Destination */,
+			);
+			buildRules = (			
+			);
+			dependencies = (
+			);
+			name = s3eGPUImage_iphone;
+			productName = s3eGPUImage_iphone;
+			productReference = ref_s3eGPUImage_iphone_a /* s3eGPUImage_iphone */;
+			productType = "com.apple.product-type.library.static";
+		};
+
+/* End PBXNativeTarget section */
+
+
+/* Begin PBXProject section */
+		A00000000000000000000006 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = buildconfiglistproject /* Build configuration list for PBXProject "s3eGPUImage_iphone" */;
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 1;
+			mainGroup = A00000000000000000000007 /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+
+			69000000000000000000000A /* s3eGPUImage_iphone */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		resourcesobject /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		sourcesobject /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A000000000000000000001aa,
+				A000000000000000000001ad,
+				A000000000000000000001b4,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+
+		T00000000000000000000003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ONLY_ACTIVE_ARCH = YES;
+				GCC_CW_ASM_SYNTAX = NO;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_THUMB_SUPPORT = NO;
+				GCC_ENABLE_CPP_RTTI = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+
+				HEADER_SEARCH_PATHS = (
+					"/Users/lolsto/s3eGPUImage/source/h/",
+					"/Users/lolsto/s3eGPUImage/h/",
+					"/Developer/Marmalade/6.2/s3e/edk/h/",
+					"/Developer/Marmalade/6.2/s3e/h/",
+					"/Developer/Marmalade/6.2/s3e/h/ext/",
+					"/Developer/Marmalade/6.2/modules/iwutil/h/",
+					"/Developer/Marmalade/6.2/modules/iwcore/h/",
+					"/Users/lolsto/s3eGPUImage/incoming"
+				);
+				LIBRARY_SEARCH_PATHS = (
+					
+					"$(inherited)",
+				);
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				INFOPLIST_FILE = Info.plist;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				OTHER_CFLAGS = ( 
+"-fsigned-char",
+					"-fno-strict-aliasing",
+					"-Wall",
+					"-fomit-frame-pointer",
+					"-Wno-unused",
+					"-Wno-parentheses",
+					"-pipe","-g",
+					"-O0",
+					"-include",
+					"temp_defines_debug.h",					"-include temp_defines_debug.h",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-fno-exceptions",
+				);
+				OTHER_LDFLAGS = (
+					
+				);
+				SDKROOT = iphoneos6.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		
+
+		T00000000000000000000005 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ONLY_ACTIVE_ARCH = YES;
+				GCC_CW_ASM_SYNTAX = NO;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_THUMB_SUPPORT = NO;
+				GCC_ENABLE_CPP_RTTI = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+
+				HEADER_SEARCH_PATHS = (
+					"/Users/lolsto/s3eGPUImage/source/h/",
+					"/Users/lolsto/s3eGPUImage/h/",
+					"/Developer/Marmalade/6.2/s3e/edk/h/",
+					"/Developer/Marmalade/6.2/s3e/h/",
+					"/Developer/Marmalade/6.2/s3e/h/ext/",
+					"/Developer/Marmalade/6.2/modules/iwutil/h/",
+					"/Developer/Marmalade/6.2/modules/iwcore/h/",
+					"/Users/lolsto/s3eGPUImage/incoming"
+				);
+				LIBRARY_SEARCH_PATHS = (
+					
+					"$(inherited)",
+				);
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				INFOPLIST_FILE = Info.plist;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				OTHER_CFLAGS = ( 
+"-fsigned-char",
+					"-fno-strict-aliasing",
+					"-Wall",
+					"-fomit-frame-pointer",
+					"-Wno-unused",
+					"-Wno-parentheses",
+					"-pipe","-O3",
+					"-include",
+					"temp_defines_release.h",					"-include temp_defines_release.h",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-fno-exceptions",
+				);
+				OTHER_LDFLAGS = (
+					
+				);
+				SDKROOT = iphoneos6.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		
+		C00000000000000000000002 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "armv7";
+				DEAD_CODE_STRIPPING = NO;
+				GCC_THUMB_SUPPORT = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_CPP_RTTI = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;  
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym"; 
+				INFOPLIST_FILE = Info.plist;
+				LINK_WITH_STANDARD_LIBRARIES = YES;
+				PRODUCT_NAME = s3eGPUImage_iphone;
+			};
+			name = Debug;
+		};
+		C00000000000000000000004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "armv7";
+				ONLY_ACTIVE_ARCH = YES;
+                DEAD_CODE_STRIPPING = NO;
+				GCC_CW_ASM_SYNTAX = NO;
+				GCC_DYNAMIC_NO_PIC = NO; 
+				GCC_ENABLE_CPP_RTTI = YES;
+				GCC_THUMB_SUPPORT = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				LINK_WITH_STANDARD_LIBRARIES = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym"; 
+				INFOPLIST_FILE = Info.plist;
+				PRODUCT_NAME = s3eGPUImage_iphone;
+			};
+			name = Release;
+		}; 
+
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+
+		buildconfiglistproject /* Build configuration list for PBXProject "s3eGPUImage_iphone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				T00000000000000000000003 /* Debug */,
+				T00000000000000000000005 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+
+		buildconfiglisttarget /* Build configuration list for PBXNativeTarget "s3eGPUImage_iphone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C00000000000000000000002 /* Debug */,
+				C00000000000000000000004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A00000000000000000000006 /* Project object */;
+}

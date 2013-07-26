@@ -37,15 +37,16 @@ static char * s3eGPUImageTake_wrap(s3eGPUImageEventDoIt evnt, void * userData)
 void s3eGPUImageRegisterExt()
 {
     /* fill in the function pointer struct for this extension */
-    void* funcPtrs[3];
+    void* funcPtrs[4];
     funcPtrs[0] = (void*)s3eGPUImageGetContext;
     funcPtrs[1] = (void*)s3eGPUImageTake;
     funcPtrs[2] = (void*)s3eMyGLGenTextures;
+    funcPtrs[3] = (void*)s3eRegisterGlGenTexturesCB;
 
     /*
      * Flags that specify the extension's use of locking and stackswitching
      */
-    int flags[3] = { 0 };
+    int flags[4] = { 0 };
 
     /*
      * Register the extension
