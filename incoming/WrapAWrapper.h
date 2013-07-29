@@ -8,6 +8,8 @@
 
 #import <Foundation/Foundation.h>
 
+typedef void (*s3eAnalogLogBanan)(unsigned int,unsigned int*);
+
 @interface WrapAWrapper : NSObject
 {
 
@@ -24,4 +26,5 @@
 -(void)s3eSetTex:(unsigned int)texId;
 -(unsigned int)s3eGetTexOut;
 -(void)myGlGenTex:(unsigned int)asText Pointer:(unsigned int*)Pointer;
+-(void)registerCallbackGLGEN:(s3eAnalogLogBanan)CBUse;
 @end
