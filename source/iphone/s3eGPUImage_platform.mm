@@ -36,8 +36,8 @@ void s3eGPUImageGetContext_platform()
 
 char * s3eGPUImageTake_platform(s3eGPUImageEventDoIt evnt, void * userData)
 {
-	unsigned int texID;
-	texID=(unsigned int) userData;
+	char* texID;
+	texID=(char*) userData;
 	switch(evnt)
 	{
 		case s3eGPUImgInitial:
