@@ -14,9 +14,7 @@
 
  char * ddGetTex(void * pointer)
  {
- 	unsigned int ffr=0;
- 	ffr=(unsigned int)[[WrapAWrapper sharedInstance] s3eGetTexOut];
-       return (char*)ffr;
+ 	return (char*)[[WrapAWrapper sharedInstance] s3eGetTexOut];
  }
 
 s3eResult s3eGPUImageInit_platform()
