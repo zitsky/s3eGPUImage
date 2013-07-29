@@ -37,3 +37,8 @@ void s3eMyGLGenTextures(unsigned int col, unsigned int * point)
 {
 	s3eMyGLGenTextures_platform(col,point);
 }
+
+void s3eRegisterGlGenTexturesCB(s3eGPUImageGlGenTextures cb)
+{
+	s3eRegisterGlGenTexturesCB_platform(cb);
+}

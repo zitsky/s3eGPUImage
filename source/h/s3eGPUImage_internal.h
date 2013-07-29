@@ -46,6 +46,7 @@ void s3eGPUImageGetContext_platform();
 
 char * s3eGPUImageTake_platform(s3eGPUImageEventDoIt evnt, void * userData);
 void s3eMyGLGenTextures_platform(unsigned int col, unsigned int * point);
+void s3eRegisterGlGenTexturesCB_platform(s3eGPUImageGlGenTextures cb);
 
 
 #endif /* !S3EGPUIMAGE_INTERNAL_H */

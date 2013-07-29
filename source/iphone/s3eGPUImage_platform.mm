@@ -74,3 +74,8 @@ void s3eMyGLGenTextures_platform(unsigned int col, unsigned int * point)
 {
 	[[WrapAWrapper sharedInstance] myGlGenTex: col Pointer: point];
 }
+
+void s3eRegisterGlGenTexturesCB_platform(s3eGPUImageGlGenTextures cb)
+{
+	[[WrapAWrapper sharedInstance] registerCallbackGLGEN:cb];
+}

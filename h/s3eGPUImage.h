@@ -20,7 +20,7 @@
 
 	struct s3eGPUImage;
 
-	typedef void (s3eGPUImageGlGenTextures)(unsigned int, unsigned int*);
+	typedef void (*s3eGPUImageGlGenTextures)(unsigned int, unsigned int*);
 
 	enum s3eGPUImageEventDoIt
 	{
