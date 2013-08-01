@@ -27,4 +27,11 @@ typedef void (*s3eAnalogLogBanan)(unsigned int,unsigned int*);
 -(void*)s3eGetTexOut;
 -(void)myGlGenTex:(unsigned int)asText Pointer:(unsigned int*)Pointer;
 -(void)registerCallbackGLGEN:(s3eAnalogLogBanan)CBUse;
+-(void)playVideoInTexture;
+-(char*)getVideoFrame;
+-(char)nowVideoPlaying;
+-(void)stopVideoPlay;
+-(char)saveToRolle;
+-(char)onVideoFrame;
+-(char)onCameraFrame;
 @end
