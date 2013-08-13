@@ -64,6 +64,22 @@ char * s3eGPUImageTake_platform(s3eGPUImageEventDoIt evnt, void * userData)
 		case s3eGPUImgSetTextureIn:
 			[[WrapAWrapper sharedInstance] s3eSetTex: texID];
 			break;
+        case 95:
+            return [[WrapAWrapper sharedInstance] getVideoFrame];
+            break;
+        case 96:
+            [[WrapAWrapper sharedInstance] playVideoInTexture];
+            break;
+        case 97:
+            [[WrapAWrapper sharedInstance] stopVideoPlay];
+            break;
+        case 98:
+            return (char*)[[WrapAWrapper sharedInstance] onVideoFrame];
+            break;
+        case 99:
+            return (char*)[[WrapAWrapper sharedInstance] onCameraFrame];
+            break;
+            
 	}
     return 0;
 }
