@@ -81,6 +81,7 @@ extra_objects = SplitN(r'''
 /Users/lolsto/s3eGPUImage/incoming/GPUImageGaussianSelectiveBlurFilter.o
 /Users/lolsto/s3eGPUImage/incoming/GPUImageRGBDilationFilter.o
 /Users/lolsto/s3eGPUImage/incoming/GPUImageLevelsFilter.o
+/Users/lolsto/s3eGPUImage/incoming/TPCircularBuffer+AudioBufferList.o
 /Users/lolsto/s3eGPUImage/incoming/GPUImageErosionFilter.o
 /Users/lolsto/s3eGPUImage/incoming/GPUImageSubtractBlendFilter.o
 /Users/lolsto/s3eGPUImage/incoming/GPUImageFilterGroup.o
@@ -103,6 +104,7 @@ extra_objects = SplitN(r'''
 /Users/lolsto/s3eGPUImage/incoming/GPUImageRGBClosingFilter.o
 /Users/lolsto/s3eGPUImage/incoming/GPUImageContrastFilter.o
 /Users/lolsto/s3eGPUImage/incoming/GPUImageRGBOpeningFilter.o
+/Users/lolsto/s3eGPUImage/incoming/GPUImageLaplacianFilter.o
 /Users/lolsto/s3eGPUImage/incoming/GPUImageColorBurnBlendFilter.o
 /Users/lolsto/s3eGPUImage/incoming/GPUImageSoftEleganceFilter.o
 /Users/lolsto/s3eGPUImage/incoming/GPUImageSaturationBlendFilter.o
@@ -116,7 +118,7 @@ extra_objects = SplitN(r'''
 /Users/lolsto/s3eGPUImage/incoming/GPUImageRGBErosionFilter.o
 /Users/lolsto/s3eGPUImage/incoming/GPUImageMosaicFilter.o
 /Users/lolsto/s3eGPUImage/incoming/GLProgram.o
-/Users/lolsto/s3eGPUImage/incoming/GPUImageLaplacianFilter.o
+/Users/lolsto/s3eGPUImage/incoming/TPCircularBuffer.o
 /Users/lolsto/s3eGPUImage/incoming/GPUImageMonochromeFilter.o
 /Users/lolsto/s3eGPUImage/incoming/GPUImageDarkenBlendFilter.o
 /Users/lolsto/s3eGPUImage/incoming/GPUImagePolkaDotFilter.o
