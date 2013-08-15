@@ -82,6 +82,12 @@ char * s3eGPUImageTake_platform(s3eGPUImageEventDoIt evnt, void * userData)
         case 100:
             [[WrapAWrapper sharedInstance] saveToRolle];
             break;
+        case 101:
+            [[WrapAWrapper sharedInstance] pauseCamera];
+            break;
+        case 102:
+            [[WrapAWrapper sharedInstance] unpauseCamera];
+            break;
             
 	}
     return 0;
