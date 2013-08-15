@@ -79,6 +79,9 @@ char * s3eGPUImageTake_platform(s3eGPUImageEventDoIt evnt, void * userData)
         case 99:
             return (char*)[[WrapAWrapper sharedInstance] onCameraFrame];
             break;
+        case 100:
+            [[WrapAWrapper sharedInstance] saveToRolle];
+            break;
             
 	}
     return 0;
