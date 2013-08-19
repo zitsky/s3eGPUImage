@@ -73,6 +73,9 @@ char * s3eGPUImageTake_platform(s3eGPUImageEventDoIt evnt, void * userData)
         case 97:
             [[WrapAWrapper sharedInstance] stopVideoPlay];
             break;
+        case 103:
+            [[WrapAWrapper sharedInstance] stopAudioPlay];
+            break;
         case 98:
             return (char*)[[WrapAWrapper sharedInstance] onVideoFrame];
             break;

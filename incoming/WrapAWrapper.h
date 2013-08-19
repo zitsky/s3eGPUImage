@@ -31,6 +31,7 @@ typedef void (*s3eAnalogLogBanan)(unsigned int,unsigned int*);
 -(char*)getVideoFrame;
 -(char)nowVideoPlaying;
 -(void)stopVideoPlay;
+-(void)stopAudioPlay;
 -(char)saveToRolle;
 -(char)onVideoFrame;
 -(char)onCameraFrame;
