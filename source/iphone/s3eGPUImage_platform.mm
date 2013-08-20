@@ -55,6 +55,7 @@ char * s3eGPUImageTake_platform(s3eGPUImageEventDoIt evnt, void * userData)
 			[[WrapAWrapper sharedInstance] StopCapture];
 			break;
 		case s3eGPUImgCopyFileToDash:
+            [[WrapAWrapper sharedInstance] saveToRolle];
 			break;
 		case s3eGPUImgGetFileName:
 			break;
