@@ -49,6 +49,7 @@ char * s3eGPUImageTake_platform(s3eGPUImageEventDoIt evnt, void * userData)
 			[[WrapAWrapper sharedInstance] StartPreview];
 			break;
 		case s3eGPUImgStartCapture:
+            
 			[[WrapAWrapper sharedInstance] StartCapture];
 			break;
 		case s3eGPUImgStopCapture:
