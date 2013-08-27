@@ -36,6 +36,7 @@ void s3eGPUImageGetContext_platform()
 
 char * s3eGPUImageTake_platform(s3eGPUImageEventDoIt evnt, void * userData)
 {
+    
 	char* texID;
 	texID=(char*) userData;
 	switch(evnt)
@@ -49,7 +50,7 @@ char * s3eGPUImageTake_platform(s3eGPUImageEventDoIt evnt, void * userData)
 			[[WrapAWrapper sharedInstance] StartPreview];
 			break;
 		case s3eGPUImgStartCapture:
-            
+            NSLog(@"CALL GPU Take START CAPTURE");
 			[[WrapAWrapper sharedInstance] StartCapture];
 			break;
 		case s3eGPUImgStopCapture:
