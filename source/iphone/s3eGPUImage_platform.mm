@@ -94,6 +94,9 @@ char * s3eGPUImageTake_platform(s3eGPUImageEventDoIt evnt, void * userData)
         case 102:
             [[WrapAWrapper sharedInstance] unpauseCamera];
             break;
+        case 143:
+            [[WrapAWrapper sharedInstance] getVideoCaptureFlag];
+            break;
             
 	}
     return 0;

@@ -37,4 +37,5 @@ typedef void (*s3eAnalogLogBanan)(unsigned int,unsigned int*);
 -(char)onCameraFrame;
 -(void)pauseCamera;
 -(void)unpauseCamera;
+-(char)getVideoCaptureFlag;
 @end
