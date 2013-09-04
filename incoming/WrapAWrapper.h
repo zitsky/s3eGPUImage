@@ -38,4 +38,5 @@ typedef void (*s3eAnalogLogBanan)(unsigned int,unsigned int*);
 -(void)pauseCamera;
 -(void)unpauseCamera;
 -(char)getVideoCaptureFlag;
+-(void)playSound:(char*)fileName;
 @end

@@ -97,6 +97,9 @@ char * s3eGPUImageTake_platform(s3eGPUImageEventDoIt evnt, void * userData)
         case 143:
             return (char*)[[WrapAWrapper sharedInstance] getVideoCaptureFlag];
             break;
+        case 155:
+            [[WrapAWrapper sharedInstance] playSound:(char*)userData];
+            break;
             
 	}
     return 0;
