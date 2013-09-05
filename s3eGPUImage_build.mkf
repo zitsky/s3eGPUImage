@@ -41,7 +41,7 @@ if {{defined I3D_OS_IPHONE}}
     }
     deployments
     {  
-        iphone-link-opts=" -fobjc-arc -weak_framework Accelerate -weak_framework AudioToolbox" 
+        iphone-link-opts="-fobjc-arc -weak_framework Accelerate -weak_framework AudioToolbox" 
     }   
 }
 
