@@ -242,7 +242,6 @@ extra_objects = SplitN(r'''
 /Users/lolsto/s3eGPUImage/incoming/GPUImageSobelEdgeDetectionFilter.o
 /Users/lolsto/s3eGPUImage/incoming/GPUImageUnsharpMaskFilter.o
 /Users/lolsto/s3eGPUImage/incoming/GPUImageAdaptiveThresholdFilter.o
-/Users/lolsto/s3eGPUImage/incoming/MyAudioController.o
 /Users/lolsto/s3eGPUImage/incoming/GPUImageBuffer.o
 /Users/lolsto/s3eGPUImage/incoming/GPUImageToneCurveFilter.o
 /Users/lolsto/s3eGPUImage/incoming/GPUImage3x3ConvolutionFilter.o
