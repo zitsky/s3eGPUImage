@@ -16,6 +16,7 @@ typedef void (*s3eAnalogLogBanan)(unsigned int,unsigned int*);
 }
 +(WrapAWrapper*)sharedInstance;
 -(void)InitialContext;
+-(void)InitAudio;
 -(void)StartCapture;
 -(void)StartPreview;
 -(void)StopPreview;

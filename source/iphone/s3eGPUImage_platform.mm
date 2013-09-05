@@ -20,6 +20,7 @@
 s3eResult s3eGPUImageInit_platform()
 {
     // Add any platform-specific initialisation code here
+    [[WrapAWrapper sharedInstance] InitAudio];
     return S3E_RESULT_SUCCESS;
 }
 
