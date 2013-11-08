@@ -101,6 +101,10 @@ char * s3eGPUImageTake_platform(s3eGPUImageEventDoIt evnt, void * userData)
         case 155:
             [[WrapAWrapper sharedInstance] playSound:(char*)userData];
             break;
+
+	case 156:
+            [[WrapAWrapper sharedInstance] preloadSound:(char*)userData];
+            break;
             
 	}
     return 0;
