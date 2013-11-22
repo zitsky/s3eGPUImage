@@ -110,6 +110,11 @@ char * s3eGPUImageTake_platform(s3eGPUImageEventDoIt evnt, void * userData)
             [[WrapAWrapper sharedInstance] preloadSound:(char*)userData];
             break;
             
+        case 204://set button text
+            [[WrapAWrapper sharedInstance] setupTextButton:(char*)userData];
+            
+            break;
+            
         
         case 205://REgister CallbAck Message BOX
             cbUSe=(s3eMBReturnCodeCB)userData;
