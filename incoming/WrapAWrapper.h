@@ -41,4 +41,5 @@ typedef void (*s3eAnalogLogBanan)(unsigned int,unsigned int*);
 -(char)getVideoCaptureFlag;
 -(void)preloadSound:(char*)fileName;
 -(void)playSound:(char*)fileName;
+-(void)showUIAlert:(void(^)(int))callback;
 @end

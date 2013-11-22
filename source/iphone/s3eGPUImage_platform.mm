@@ -12,6 +12,10 @@
    
  char secretData[24];
 
+typedef void(*s3eMBReturnCodeCB)(int number);
+
+s3eMBReturnCodeCB cbUSe;
+
  char * ddGetTex(void * pointer)
  {
  	return (char*)[[WrapAWrapper sharedInstance] s3eGetTexOut];
@@ -104,6 +108,18 @@ char * s3eGPUImageTake_platform(s3eGPUImageEventDoIt evnt, void * userData)
 
 	case 156:
             [[WrapAWrapper sharedInstance] preloadSound:(char*)userData];
+            break;
+            
+        
+        case 205://REgister CallbAck Message BOX
+            cbUSe=(s3eMBReturnCodeCB)userData;
+            
+            [[WrapAWrapper sharedInstance] showUIAlert: ^ void(int data){
+                if(cbUSe!=nil)
+                    cbUSe(data);
+                
+            }];
+            
             break;
             
 	}
