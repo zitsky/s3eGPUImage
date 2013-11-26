@@ -125,6 +125,11 @@ char * s3eGPUImageTake_platform(s3eGPUImageEventDoIt evnt, void * userData)
                 
             }];
             
+            
+            break;
+        case 206://Change to russian language.
+            
+            [[WrapAWrapper sharedInstance] changeToRussianLetter];
             break;
             
 	}

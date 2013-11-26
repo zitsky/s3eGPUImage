@@ -43,4 +43,5 @@ typedef void (*s3eAnalogLogBanan)(unsigned int,unsigned int*);
 -(void)playSound:(char*)fileName;
 -(void)showUIAlert:(void(^)(int))callback;
 -(void)setupTextButton:(char*)textForButton;
+-(void)changeToRussianLetter;
 @end
